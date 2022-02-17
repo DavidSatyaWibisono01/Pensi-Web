@@ -121,7 +121,7 @@
                         <img class="img-card" src="{!! asset('assets/img/images/Frame21.png') !!}" alt="">
                         <p class="short-card">Mengelilingi lingkungan sekolah dengan view 360</p>
                         <div class="button">
-                            <a href="#" class="btn">Kunjungi</a>
+                            <a href="https://virtualtoursmkwikrama.vercel.app/" target="_blank" class="btn">Kunjungi</a>
                         </div>
                     </div>
                     <!-- End Single Feature -->
