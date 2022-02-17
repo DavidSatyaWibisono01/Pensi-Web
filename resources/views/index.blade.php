@@ -39,7 +39,7 @@
                     <div class="nav-inner">
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand logo-img" href="index.html">
+                            <a class="navbar-brand logo-img" href="/">
                                 <img src="assets/images/logo/logo-osis.png" alt=""> 
                                 <!-- <a class="osismpr-nav" href="#">OSIS MPR</a> -->
                             </a>
@@ -53,11 +53,10 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a href="#home" class="page-scroll active"
-                                            aria-label="Toggle navigation">About Us</a>
+                                        <a href="/about-us" aria-label="Toggle navigation">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Contact</a>
+                                        <a href="/about-us" aria-label="Toggle navigation">Contact</a>
                                     </li>
                                 </ul>
                             </div>

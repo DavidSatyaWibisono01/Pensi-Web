@@ -1990,15 +1990,15 @@ ol {
     padding: 100px 0 120px 0;
     background-image: url("../images/bg-landing.png");
     background-repeat: no-repeat;
-    height: 100%;
     background-size: cover;
+    height: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .hero-area {
         padding: 150px 0 0px 0;
     }
-    .hero-image{
+    .hero-image {
         width: 90%;
         margin-left: 5%;
     }
@@ -2320,7 +2320,7 @@ ol {
     Our Achievement CSS
 ========================================*/
 .our-achievement {
-    background-color: #BAABDA;
+    background-color: #baabda;
     text-align: center;
     padding: 90px 0;
 }
