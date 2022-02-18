@@ -38,7 +38,7 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Cbt yaitu Compentence basic training Merupakan pembelajaran berbasis pelatihan di SMK Wikrama yang dilaksanakan oleh peserta didik kelas 10 sampai kelas 12. Cbt yang terdapat di SMK Wikrama ada CBT PLH,CBT HUMAS,CBT KWH,CBT JURUSAN (OTKP,MMD,RPL,TKJ,BDP,TBG,HTL)</p>
+                        <p class="text-white-75 mb-5">CBT yaitu Compentence Based Training Merupakan pembelajaran berbasis pelatihan di SMK Wikrama yang dilaksanakan oleh peserta didik kelas 10 sampai kelas 12. CBT yang terdapat di SMK Wikrama ada CBT PLH,CBT HUMAS,CBT KWH,CBT JURUSAN (OTKP, MMD, RPL, TKJ, BDP, TBG, HTL)</p>
                     </div>
                 </div>
             </div>
