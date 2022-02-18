@@ -55,9 +55,6 @@
                                     <li class="nav-item">
                                         <a href="/about-us" aria-label="Toggle navigation">About Us</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="/about-us" aria-label="Toggle navigation">Contact</a>
-                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -109,7 +106,7 @@
                         <img class="img-card" src="{!! asset('assets/img/images/Frame12.png') !!}" alt="">
                         <p class="short-card-s">Competence Based Training</p>
                         <div class="button">
-                            <a href="#" class="btn">Kunjungi</a>
+                            <a href="/cbt-wikrama" class="btn">Kunjungi</a>
                         </div>
                     </div>
                     <!-- End Single Feature -->

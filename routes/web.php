@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about');
 });
+
+Route::get('/cbt-wikrama', function () {
+    return view('cbt');
+});
