@@ -22,7 +22,7 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/dashboard">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/about-us">About us</a></li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">CBT yaitu Compentence Based Training Merupakan pembelajaran berbasis pelatihan di SMK Wikrama yang dilaksanakan oleh peserta didik kelas 10 sampai kelas 12. CBT yang terdapat di SMK Wikrama ada CBT PLH,CBT HUMAS,CBT KWH,CBT JURUSAN (OTKP, MMD, RPL, TKJ, BDP, TBG, HTL)</p>
+                        <p class="text-white-75 mb-5">CBT kepanjangan dari Compentence Based Training. CBT Merupakan pembelajaran berbasis pelatihan di SMK Wikrama yang dilaksanakan oleh peserta didik kelas 10 sampai kelas 12. CBT yang terdapat di SMK Wikrama ada CBT PLH,CBT HUMAS,CBT KWH,CBT JURUSAN (OTKP, MMD, RPL, TKJ, BDP, TBG, HTL)</p>
                     </div>
                 </div>
             </div>

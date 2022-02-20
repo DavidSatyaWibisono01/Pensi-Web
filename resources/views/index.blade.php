@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>HOME</title>
+    <title>Dashboard | Pensi Virtual</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -129,13 +129,74 @@
                         <p class="title-card"><b>Ruang</b></p>
                         <p class="title-card-s"><b>Jurusan</b></p>
                         <img class="img-card" src="{!! asset('assets/img/images/Frame32.png') !!}" alt="">
-                        <p class="short-card">Competence Based Training</p>
+                        <p class="short-card">Melihat ruang jurusan dengan view 360</p>
                         <div class="button">
-                            <a href="#" class="btn">Kunjungi</a>
+                            <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Kunjungi</a>
                         </div>
                     </div>
                     <!-- End Single Feature -->
                 </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ruang Jurusan</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                        <div class="text-center mb-5">
+                            <img src="{!! asset('assets/images/logo/logo-wk.png') !!}" class="rounded">
+                        </div>
+                            
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/pplg">
+                                <button class="btn btnn-modal-jurusan">PPLG</button>
+                            </a>
+                        </div>
+
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/dkv">
+                                <button class="btn btnn-modal-jurusan">DKV</button>
+                            </a>
+                        </div>
+
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/pemasaran">
+                                <button class="btn btnn-modal-jurusan">PMN</button>
+                            </a>
+                        </div>
+
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/tjkt">
+                                <button class="btn btnn-modal-jurusan">TJKT</button>
+                            </a>
+                        </div>
+
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/kuliner">
+                                <button class="btn btnn-modal-jurusan">KLN</button>
+                            </a>
+                        </div>
+
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/mplb">
+                                <button class="btn btnn-modal-jurusan">MPLB</button>
+                            </a>
+                        </div>
+
+                        <div class="button btn-modal-jurusan mb-3">
+                            <a href="/hotel">
+                                <button class="btn btnn-modal-jurusan">HTL</button>
+                            </a>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div>
+                    </div>
 
             </div>
         </div>
@@ -168,7 +229,7 @@
                 </div>
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
                     <div class="title">
-                        <h2>Virtual Annual F​estival</h2>
+                        <h2>Virtual Annual Festival</h2>
                         <p>Pameran karya dari kompetensi keahlian adalah pameran karya dan inovasi yang telah dibuat oleh ke-7 kompetensi keahlian yang ada di SMK Wikrama. Pameran ini dilakukan secara daring dengan menerapkan konsep 3D melalui website sebagai media yang nanti akan dikunjungi oleh siswa/siswi SMK Wikrama dimanapun dan kapanpun. Dalam pameran virtual, para penikmat karya tidak harus datang ke lokasi pameran. Alih-alih semua orang dapat menikmati kreativitas siswa siswi SMK Wikrama Bogor melalui daring atau secara online.</p>
                     </div>
                 </div>

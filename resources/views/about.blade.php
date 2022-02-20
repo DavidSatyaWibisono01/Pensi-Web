@@ -41,7 +41,7 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-custom-font u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-hover-custom-color-3 u-text-white" href="/">Home</a>
+            <ul class="u-custom-font u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-hover-custom-color-3 u-text-white" href="/dashboard">Home</a>
 </li>
 </li></ul>
           </div>
@@ -49,7 +49,7 @@
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Home</a></li>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/dashboard">Home</a></li>
 </li></ul>
               </div>
             </div>
@@ -334,7 +334,7 @@
                   <div class="u-container-layout u-container-layout-2">
                     <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-1" src="{!! asset('assets/img/images/Group41.png') !!}" alt="" data-image-width="370" data-image-height="403">
                     <h5 class="u-custom-font u-text u-text-white u-text-2">M Rasyad Alfiansyah </h5>
-                    <h6 class="u-custom-font u-text u-text-white u-text-3">UI Designer / Frontend dev</h6>
+                    <h6 class="u-custom-font u-text u-text-white u-text-3">UI Designer</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-1">
                       <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
@@ -356,7 +356,7 @@
                   <div class="u-container-layout u-container-layout-4">
                     <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-2" src="{!! asset('assets/img/images/Group37.png') !!}" alt="" data-image-width="370" data-image-height="404">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-4">Jasmina Salma</h6>
-                    <h6 class="u-custom-font u-text u-text-white u-text-5">Backend Developer</h6>
+                    <h6 class="u-custom-font u-text u-text-white u-text-5">Frontend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-2">
                       <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
@@ -378,7 +378,7 @@
                   <div class="u-container-layout u-container-layout-6">
                     <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-3" src="{!! asset('assets/img/images/Group361.png') !!}" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-6">Akbar Aulia R</h6>
-                    <h6 class="u-custom-font u-text u-text-white u-text-7">Backend Developer</h6>
+                    <h6 class="u-custom-font u-text u-text-white u-text-7">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-3">
                       <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
@@ -495,7 +495,7 @@
                 <div class="u-align-center u-container-style u-group u-group-5">
                   <div class="u-container-layout u-container-layout-10">
                     <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="{!! asset('assets/images/manusa/manusa2.png') !!}" alt="" data-image-width="370" data-image-height="403">
-                    <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">Muhammad Abdurrasyid</h6>
+                    <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">M Abdurrasyid</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
                       <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/m.abdurrasyid24/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
@@ -548,7 +548,7 @@
         <h3 class="u-align-center u-custom-font u-text u-text-3">Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
         </h3>
         <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{!! asset('assets/img/images/HizkiaAryaDianKristanda_Kordinator_Personilbandosis1.png') !!}" alt="" data-image-width="268" data-image-height="268">
-        <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{!! asset('assets/img/images/IMG_64101.png') !!}" alt="" data-image-width="280" data-image-height="281">
+        <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{!! asset('assets/images/manusa/ceka.png') !!}" alt="" data-image-width="280" data-image-height="281">
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4">Hizkia Arya D.K</h2>
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-5">Manda Christoffel K</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-6">Koordinator Pensi Virtual</h3>
@@ -680,7 +680,7 @@
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-19">
                 <img class="u-image u-image-round u-radius-12 u-image-19" src="{!! asset('assets/img/images/c3f84d3e-f591-42e4-a481-67aaac0548eb.jfif') !!}" alt="" data-image-width="719" data-image-height="1280">
-                <h5 class="u-align-center-xs u-custom-font u-text u-text-37">Dzakiyyah Laainuun Z</h5>
+                <h5 class="u-align-center-xs u-custom-font u-text u-text-37">Dzakiyyah Lainun Z</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-38">Design </h5>
               </div>
             </div>

@@ -1270,6 +1270,15 @@ ol {
     overflow: hidden;
 }
 
+.btn-modal-jurusan {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.btnn-modal-jurusan {
+    width: 250px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .button .btn {
         padding: 12px 25px;
