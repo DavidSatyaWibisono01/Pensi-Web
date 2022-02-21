@@ -20,6 +20,12 @@
 </head>
 
 <body>
+    @if(session()->has('success'))
+    <div class="alert alert-success alert-dismissible position-absolute w-100 fade show" role="alert">
+        {{session('success')}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    @endif
     <!-- Preloader -->
     <div class="preloader">
         <div class="preloader-inner">
@@ -40,7 +46,7 @@
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand logo-img" href="/">
-                                <img src="assets/images/logo/logo-osis.png" alt=""> 
+                                <img src="assets/images/logo/logo-osis.png" alt="">
                                 <!-- <a class="osismpr-nav" href="#">OSIS MPR</a> -->
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
@@ -150,7 +156,7 @@
                         <div class="text-center mb-5">
                             <img src="{!! asset('assets/images/logo/logo-wk.png') !!}" class="rounded">
                         </div>
-                            
+
                         <div class="button btn-modal-jurusan mb-3">
                             <a href="/pplg">
                                 <button class="btn btnn-modal-jurusan">PPLG</button>
@@ -202,8 +208,8 @@
         </div>
     </section>
     <!-- End Features Area -->
-    
-    <!-- Start Achievement Area --> 
+
+    <!-- Start Achievement Area -->
     <section class="our-achievement section">
         <div class="container">
             <div class="row">
@@ -282,7 +288,7 @@
     <script src="{!! asset('assets/js/main.js') !!} "></script>
     <script type="text/javascript">
 
-        //====== counter up 
+        //====== counter up
         var cu = new counterUp({
             start: 0,
             duration: 2000,
