@@ -85,11 +85,8 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">CBT PLH</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-about mb-4">Di SMK Wikrama, peserta kegiatan Competence Based Training (CBT) HUMAS yang diikuti peserta didik kelas XI (sebelas) bertugas menerima tamu, dan mengantarkan sampai ke tempat tujuan yang diinginkan. Menyapa terlebih dahulu, sambil tersenyum, menanyakan kartu identitas (KTP) adalah hal-hal yang harus dilakukan saat bertugas, sebelum mengantar tamu ke lokasi tujuan.</p>
-                        <p class="text-about">
-                        Tujuan diadakannya untuk melatih peserta didik SMK Wikrama Bogor dalam berkomunikasi dengan pihak eksternal, berlatih memberikan pelayanan terbaik juga melatih keberanian peserta didik.
-                        </p>
-                        </div>
+                        <p class="text-about mb-4">Program CBT (Competence Basic Training) PLH (Pengelolaan Lingkungan Hidup) di SMK WIKRAMA BOGOR memberikan keterampilan gaya hidup sehat, bersih dan cinta lingkungan.</p>
+                    </div>
                 </div>
             </div>
         </section>

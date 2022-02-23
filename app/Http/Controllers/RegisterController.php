@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
+use App\Models\Pengunjung;
 
 class RegisterController extends Controller
 {
@@ -12,8 +12,11 @@ class RegisterController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        if($request->session()->has('status')){
+            return redirect('/dashboard');
+        };
         return view('register');
     }
 
@@ -38,11 +41,12 @@ class RegisterController extends Controller
         $request->validate([
             'name'=>'required',
             'asal_instansi'=>'required',
-
         ]);
-        user::create($request->all());
-
-        return redirect('/dashboard')->with('success','Selamat Datang');
+        if(Pengunjung::where([['name',$request->name],['asal_instansi',$request->asal_instansi]])->first() == null ) { 
+            Pengunjung::create($request->all());
+         }
+        $request->session()->put('status', "Sudah Masuk");
+        return redirect('/dashboard')->with('success','Selamat Datang')->with('user', $request->username);
     }
 
     /**

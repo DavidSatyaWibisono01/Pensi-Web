@@ -15,13 +15,11 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Masukan Nama">
-						<input class="input100" type="text" name="name">
-						<span class="focus-input100" data-placeholder="Nama"></span>
+						<input class="input100" type="text" name="name" placeholder="Nama" required>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Masukan Asal Instansi">
-						<input class="input100" type="text" name="asal_instansi">
-						<span class="focus-input100" data-placeholder="Asal Instansi"></span>
+						<input class="input100" type="text" name="asal_instansi" placeholder="Asal Instansi" required>
 					</div>
 
 					<div class="container-login100-form-btn">

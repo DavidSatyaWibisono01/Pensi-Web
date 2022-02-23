@@ -4,12 +4,45 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Pengunjung;
+use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
     public function index()
     {
-        $user=user::all();
-        return view('admin', compact('user'));
+        $pengunjungs=Pengunjung::all();
+        return view('admin', compact('pengunjungs'));
     }
+    public function login()
+    {
+        if (Auth::check()) {
+            return redirect()->intended('/admin');
+        }
+        return view('login');
+    }
+    public function auth(Request $request){
+        $credentials = $request->validate([
+            'username' => ['required'],
+            'password' => ['required']
+        ]);
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+            return redirect()->intended('/admin');
+        }
+        $request->session()
+        ->flash('message', 'Login gagal, mohon periksa kembali username dan password yang digunakan.');
+        $message = $request->session()->get('message',null);
+        return redirect('/login')->with('message', $message);
+    }
+    public function logout(Request $request)
+{
+    Auth::logout();
+ 
+    $request->session()->invalidate();
+ 
+    $request->session()->regenerateToken();
+ 
+    return redirect('/');
+}
 }

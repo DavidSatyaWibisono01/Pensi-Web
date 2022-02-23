@@ -15,10 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [RegisterController::class, 'index']);
+Route::get('/', [RegisterController::class, 'index'])->name('login');
 Route::post('/register', [RegisterController::class, 'store']);
+Route::post('/auth', [AdminController::class, 'auth']);
 
-Route::get('/admin', [AdminController::class, 'index']);
+Route::get('/logout', [AdminController::class, 'logout']);
+Route::get('/login', [AdminController::class, 'login']);
+Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
 
 Route::get('/dashboard', function () {
     return view('index')->with('success','Selamat Datang');
