@@ -255,9 +255,7 @@
                         <!-- Single Widget -->
                         <div class="single-footer f-about">
                             <div class="logo">
-                                <a href="index.html">
-                                <img src="assets/images/logo/logo-osis.svg" alt="">
-                                </a>
+                                <img src="{!! asset('assets/images/logo/footer-osis.png') !!}" alt="">
                             </div>
                             <p>Kunjungi juga sosial media kami dibawah ini</p>
                             <ul class="social">
