@@ -15,7 +15,7 @@
     </div>
 
     <header>
-      <a href="#" class="brand">DKV</a>
+      <a href="#" class="brand">PMN</a>
       <div class="menu-btn"></div>
       <div class="navigation">
       <a href="/dashboard">Home</a>

@@ -15,7 +15,7 @@
     </div>
 
     <header>
-      <a href="#" class="brand">DKV</a>
+      <a href="#" class="brand">KLN</a>
       <div class="menu-btn"></div>
       <div class="navigation">
       <a href="/dashboard">Home</a>
@@ -31,9 +31,6 @@
           <h3>Pastry Bakery</h3>
           <h3>Tata Hidang</h3>
         </div>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
       </div>
     </section>
 
@@ -43,7 +40,7 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/9df04eb8b8924daba203dfa7068340a1?utm_campaign=embed&utm_source=other&heading=-95.58&pitch=7&field-of-view=75&size=medium"></iframe><br><br>
+      		<img class="img-jurusan" src="{!! asset('assets/images/jurusan/kuliner/kuliner.jpeg') !!}" alt=""><br><br>
       	</div>
           <h2 class="content-title">Kuliner</h2>
           <p class="paragraph-text">Kompetensi Keahlian Kuliner SMK Wikrama Bogor didirikan pada tahun 2017 dan terakreditasi B (baik), merupakan salah satu jurusan atau kompetensi yang memberikan Pelajaran di bidang Pengolahan dan Penyajian Makanan baik oriental maupun kontinental serta mampu memberikan pelayanan makanan dan minuman di restoran (Food and Beverage Service).</p>
@@ -58,7 +55,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/img1.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/img1.jpg ') !!} " alt="">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -75,32 +72,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/work1.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/work1.jpg ') !!} " alt="">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/work2.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/work2.jpg ') !!} " alt="">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/work3.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/work3.jpg ') !!} " alt="">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/work4.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/work4.jpg ') !!} " alt="">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/work5.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/work5.jpg ') !!} " alt="">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset(' assets/images/jurusan/kuliner/work6.jpg ') !!} " alt="">
+            <img src="{!! asset('assets/images/jurusan/kuliner/work6.jpg ') !!} " alt="">
           </div>
         </div> 
       </div>

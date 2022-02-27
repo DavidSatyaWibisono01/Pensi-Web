@@ -10,6 +10,7 @@
 
     <!-- ========================= CSS here ========================= -->
     <link rel="icon" href="assets/images/logo/logo-osis.png" type="image/gif" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="{!! asset('assets/css/bootstrap.min.css') !!} " />
     <link rel="stylesheet" href="{!! asset('assets/css/LineIcons.2.0.css') !!} " />
     <link rel="stylesheet" href="{!! asset('assets/css/animate.css') !!} " />
@@ -78,8 +79,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="hero-content">
-                        <h1 class="wow fadeInCenter" data-wow-delay=".4s">OSIS MPR SMK WIKRAMA BOGOR</h1>
-                        <p class="wow fadeInCenter" data-wow-delay=".6s">proudly present VIRTUAL ANNUAL FESTIVAL : Shine In Middile Of The Pandemic.</p>
+                        <h1 class="wow fadeInCenter" data-wow-delay=".4s"><b>OSIS MPR <br> SMK WIKRAMA BOGOR</b></h1>
+                        <p class="wow fadeInCenter" data-wow-delay=".6s">Proudly Present Virtual Annual Festival : Shine in Middle of the Pandemic.</p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-12">
@@ -260,8 +261,8 @@
                             </div>
                             <p>Kunjungi juga sosial media kami dibawah ini</p>
                             <ul class="social">
-                                <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
+                                <li><a href="https://www.instagram.com/om__smkwikrama/"><i class="lni lni-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCWJLG_YhvKylEXLpCuw5UtA"><i class="lni lni-youtube"></i></a></li>
                             </ul>
                             <p class="copyright-text">Made by OSIS MPR WIKRAMA BOGOR</p>
                         </div>

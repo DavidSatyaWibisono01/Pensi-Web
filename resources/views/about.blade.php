@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>About Us</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="{!! asset('assets/css/about-us.css') !!}" media="screen">
     <link rel="stylesheet" href="{!! asset('assets/css/nicepage.css') !!}" media="screen">
     <meta name="generator" content="Nicepage 3.17.2, nicepage.com">
@@ -29,39 +30,44 @@
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
   </head>
-  <body class="u-body u-overlap u-overlap-transparent"><header class="u-clearfix u-header" id="sec-4807"><div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-white u-text-1">OM</h1>
+  <body class="u-body u-overlap u-overlap-transparent">
+    <header class="u-clearfix u-header" id="sec-4807">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-white u-text-1" style="width: 100%;">OSIS MPR</h1>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse u-custom-font" style="font-family: Alata;">
             <a class="u-button-style u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-nav-link u-text-white" href="#" style="padding: 2px 4px; font-size: calc(1em + 4px);">
               <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</symbol>
-</defs></svg>
+          </symbol>
+          </defs></svg>
             </a>
           </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-custom-font u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-hover-custom-color-3 u-text-white" href="/dashboard">Home</a>
-</li>
-</li></ul>
+          <div class="u-custom-menu u-nav-container" style="right: 80px;">
+            <ul class="u-custom-font u-nav u-unstyled u-nav-1" style="right: 80px;">
+              <li class="u-nav-item" style="right: 80px;">
+                <a class="u-button-style u-nav-link u-text-hover-custom-color-3 u-text-white" style="right: 80px;" href="/dashboard">Home</a>
+            </li>
+          </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/dashboard">Home</a></li>
-</li></ul>
+              </li></ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header>
+      </div>
+    </header>
     <section class="u-clearfix u-image u-section-1" id="sec-787b" data-image-width="1440" data-image-height="2710">
-      <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-sheet u-sheet-1" style="margin-top: -5%;">
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/1622451191352-1.png') !!}" alt="" data-image-width="768" data-image-height="767">
         <h1 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1">SMK Wikrama Bogor</h1>
-        <h5 class="u-align-left u-custom-font u-text u-text-body-alt-color u-text-2">SMK Wikrama Bogor didirikan oleh Ir. Itasia Dina Sulvianti dan Dr.H.RP Agus Lelana dibawah naungan Yayasan Prawitama pada tahun 1996 di bekas gudang KUD. Kompetensi keahlian yang pertama dibuka pada saat itu adalah sekretaris dengan jumlah hanya 34 siswa. <br>
+        <h5 class="u-align-left u-custom-font u-text u-text-body-alt-color u-text-2" style="text-align: justify;">SMK Wikrama Bogor didirikan oleh Ir. Itasia Dina Sulvianti dan Dr.H.RP Agus Lelana dibawah naungan Yayasan Prawitama pada tahun 1996 di bekas gudang KUD. Kompetensi keahlian yang pertama dibuka pada saat itu adalah sekretaris dengan jumlah hanya 34 siswa. <br>
           <br>Seiring berjalannya waktu, jumlah siswa SMK Wikrama Bogor setiap tahunnya terus bertambah. Sehingga pada tahun 2001, secara bertahap SMK Wikrama Bogor menempati gedung yang lebih luas diatas tanah ± 5000m2, berlokasi di Jalan Raya Wangun Kelurahan Sindangsari Kota Bogor. Hingga saat ini, SMK Wikrama Bogor  memiliki 1596 siswa dengan 51 guru pendidik. <br>
           <br>Kompetensi keahlian di SMK Wikrama Bogor pun terus berkembang. SMK Wikrama Bogor membuka 7 kompetensi keahlian, diantaranya (1) Otomatisasi dan Tata Kelola Perkantoran; (2) Teknik Komputer dan Jaringan; (3) Rekayasa Perangkat Lunak; (4) Multimedia; (5) Bisnis Daring dan Pemasaran; (6) Tata Boga; dan (7) Perhotelan. <br>
           <br>Kesuksesan SMK Wikrama Bogor saat ini tentunya tidak lepas dari sejarah SMK Wikrama Bogor  mulai dari membentuk visi dan misi, kerja keras hingga diakui dunia internasional hingga prestasi dan pengharagaan yang didapatkan SMK Wikrama Bogor sejak awal didirikan.
@@ -168,14 +174,14 @@
           </ol>
         </div>
         <div class="u-social-icons u-spacing-10 u-social-icons-1">
-          <a class="u-social-url" target="_blank" title="YouTube" href="https://localhost/k/adult-website-templates"><span class="u-icon u-icon-circle u-social-icon u-social-youtube u-text-custom-color-2 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f60c"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-f60c"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z"></path></svg></span>
+          <a class="u-social-url" target="_blank" title="YouTube" href="https://www.youtube.com/channel/UCyhEUzlXbXet57qFnDfdWuw"><span class="u-icon u-icon-circle u-social-icon u-social-youtube u-text-custom-color-2 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f60c"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-f60c"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z"></path></svg></span>
           </a>
-          <a class="u-social-url" target="_blank" title="Instagram" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-2 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4a5f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-4a5f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+          <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/smkwikrama/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-2 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4a5f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-4a5f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
           </a>
-          <a class="u-social-url" target="_blank" title="Email" href=""><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-custom-color-2 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b8ef"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-b8ef"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+          <a class="u-social-url" target="_blank" title="Email" href="mailto:prohumasi@smkwikrama.net"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-custom-color-2 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b8ef"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-b8ef"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
           </a>
@@ -187,18 +193,18 @@
           </div>
         </div>
         <h1 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-font u-text u-text-body-alt-color u-text-3">OSIS MPR&nbsp;</h1>
-        <h5 class="u-custom-font u-text u-text-body-alt-color u-text-4">OSIS <br>OSIS (Organisasi Siswa Intra Sekolah) adalah organisasi siswa di SMK Wikrama yang merupakan wadah pembentukan karakter dan management agar siswa dapat dan terbiasa membuat acara atau event dan/atau mengurus acara atau event yang sudah disediakan oleh sekolah. Syarat menjadi OSIS di SMK Wikrama Bogor adalah telah mengikuti Latihan Dasar Kepemimpinan Siswa (LDKS). <br>
+        <h5 class="u-custom-font u-text u-text-body-alt-color u-text-4" style="text-align: justify;">OSIS <br>OSIS (Organisasi Siswa Intra Sekolah) adalah organisasi siswa di SMK Wikrama yang merupakan wadah pembentukan karakter dan management agar siswa dapat dan terbiasa membuat acara atau event dan/atau mengurus acara atau event yang sudah disediakan oleh sekolah. Syarat menjadi OSIS di SMK Wikrama Bogor adalah telah mengikuti Latihan Dasar Kepemimpinan Siswa (LDKS). <br>
           <br>MPR <br>MPR (Musyawarah Perwakilan Rayon) merupakan bagian dalam struktur Organisasi Siswa Intra Sekolah (OSIS) bersama-sama dengan Pembina OSIS, dan Pengurus OSIS, dan merupakan mitra kerja pengurus OSIS dalam melaksanakan tugasnya. Mekanisme kerja berdasarkan Keputusan Dirjen PDM Departemen Pendidikan dan Kebudayaan Republik Indonesia No. 239/C/KEP/N/81 tanggal 18 Agustus 1981 yang dituangkan dalam Anggaran Dasar/Anggaran Rumah Tangga OSIS masing-masing sekolah.
         </h5>
         <div class="u-social-icons u-spacing-10 u-social-icons-2">
-          <a class="u-social-url" target="_blank" title="YouTube" href="https://localhost/k/adult-website-templates"><span class="u-icon u-icon-circle u-social-icon u-social-youtube u-text-custom-color-2 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5f89"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-5f89"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z"></path></svg></span>
+          <a class="u-social-url" target="_blank" title="YouTube" href="https://youtube.com/channel/UCWJLG_YhvKylEXLpCuw5UtA"><span class="u-icon u-icon-circle u-social-icon u-social-youtube u-text-custom-color-2 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5f89"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-5f89"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z"></path></svg></span>
           </a>
-          <a class="u-social-url" target="_blank" title="Instagram" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-2 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d0c9"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d0c9"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+          <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/om__smkwikrama/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-2 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d0c9"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d0c9"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
           </a>
-          <a class="u-social-url" target="_blank" title="Email" href=""><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-custom-color-2 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b1d7"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-b1d7"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+          <a class="u-social-url" target="_blank" title="Email" href="mailto:osismprwikramabogor@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-custom-color-2 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b1d7"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-b1d7"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
           </a>
@@ -336,7 +342,7 @@
                     <h5 class="u-custom-font u-text u-text-white u-text-2">M Rasyad Alfiansyah </h5>
                     <h6 class="u-custom-font u-text u-text-white u-text-3">UI Designer</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/alfinnrasyad/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
@@ -363,7 +369,7 @@
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:jasminasalma11@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -380,12 +386,12 @@
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-6">Akbar Aulia R</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-7">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-3">
-                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/_bamss___/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:akbarauliaramadhan@smkwikrama.sch.id"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -402,12 +408,12 @@
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-8">Bunga Syahva M</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-9">Multimedia</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-4">
-                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/bungasyahva/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:bungasyahvanazalla@smkwikrama.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -424,12 +430,12 @@
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">Anna Thereshia A</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Multimedia</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
-                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/aldelwls/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:annathere14@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -448,12 +454,12 @@
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">Qeyla Raiq Alva</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Penanggung Jawab 360</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
-                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+                      <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/qeylaaar/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:https://yourkillua17@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -503,7 +509,7 @@
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:m.abdurrasyid24@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -527,7 +533,7 @@
             C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
             c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
                       </a>
-                      <a class="u-social-url" target="_blank" title="Email" href="mailto:rasyadalfinn@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-12"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
+                      <a class="u-social-url" target="_blank" title="Email" href="mailto:mail.alfilham@gmail.com"><span class="u-icon u-icon-circle u-social-email u-social-icon u-text-grey-30 u-icon-12"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d31f"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d31f"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path id="path3864" fill="#FFFFFF" d="M27.2,28h57.6c4,0,7.2,3.2,7.2,7.2l0,0v42.7c0,3.9-3.2,7.2-7.2,7.2l0,0H27.2
 	c-4,0-7.2-3.2-7.2-7.2V35.2C20,31.1,23.2,28,27.2,28 M56,52.9l28.8-17.8H27.2L56,52.9 M27.2,77.7h57.6V43.5L56,61.3L27.2,43.5V77.7z
 	"></path></svg></span>
                       </a>
@@ -542,10 +548,10 @@
     </section>
     <section class="u-clearfix u-white u-section-3" id="sec-66fb">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-custom-color-8 u-text-default u-text-1">and our comitee</h1>
+        <h1 class="u-custom-font u-text u-text-custom-color-8 u-text-default u-text-1">and our committee</h1>
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" alt="" data-image-width="358" data-image-height="356">
-        <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-custom-color-6 u-text-2">Moh Rizal S.Pd </h2>
-        <h3 class="u-align-center u-custom-font u-text u-text-3">Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
+        <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-custom-color-6 u-text-2" style="text-align: center;">Moh Rizal S.Pd </h2>
+        <h3 class="u-align-center u-custom-font u-text u-text-3" >Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
         </h3>
         <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{!! asset('assets/img/images/HizkiaAryaDianKristanda_Kordinator_Personilbandosis1.png') !!}" alt="" data-image-width="268" data-image-height="268">
         <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{!! asset('assets/images/manusa/ceka.png') !!}" alt="" data-image-width="280" data-image-height="281">
@@ -700,7 +706,7 @@
     
     
     <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-8378"><div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <p class="u-custom-font u-small-text u-text u-text-variant u-text-1">Copyright @2021 All Rights reserved | made by OM SMK WIKRAMA</p>
+        <p class="u-custom-font u-small-text u-text u-text-variant u-text-1">&copy;Osis MPR SMK Wikrama Bogor</p>
       </div></footer>
 
 

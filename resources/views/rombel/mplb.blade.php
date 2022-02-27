@@ -16,7 +16,7 @@
     </div>
 
     <header>
-      <a href="#" class="brand">DKV</a>
+      <a href="#" class="brand">MPLB</a>
       <div class="menu-btn"></div>
       <div class="navigation">
       <a href="/dashboard">Home</a>
@@ -31,9 +31,6 @@
           <h3>Administrasi</h3>
           <h3>Humas</h3>
           <h3>Sekretaris</h3>
-        </div>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </section>

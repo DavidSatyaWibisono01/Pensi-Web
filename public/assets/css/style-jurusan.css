@@ -199,6 +199,11 @@ body {
     text-align: center;
 }
 
+.img-jurusan {
+    width: 80%;
+    text-align: center;
+}
+
 .skills {
     background: #000016;
 }
@@ -245,6 +250,10 @@ body {
 
 .skills .content .col-right .paragraph-text {
     font-size: 1em;
+}
+
+.paragraph-text {
+    text-align: justify;
 }
 
 .work {

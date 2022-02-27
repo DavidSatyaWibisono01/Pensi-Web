@@ -16,10 +16,10 @@
     </div>
  
     <header>
-      <a href="#" class="brand">DKV</a>
+      <a href="#" class="brand">TJKT</a>
       <div class="menu-btn"></div>
       <div class="navigation">
-      <a href="/dashboard">Home</a>
+        <a href="/dashboard">Home</a>
         <a href="/about-us">About Us</a>
       </div>
     </header>
