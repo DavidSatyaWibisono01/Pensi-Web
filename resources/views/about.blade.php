@@ -550,19 +550,19 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-custom-color-8 u-text-default u-text-1">and our committee</h1>
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" alt="" data-image-width="358" data-image-height="356">
-        <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-custom-color-6 u-text-2" style="text-align: center;">Moh Rizal S.Pd </h2>
+        <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-custom-color-6 u-text-2" style="text-align: center; font-family: 'Poppins'; color: #000;">Moh Rizal S.Pd </h2>
         <h3 class="u-align-center u-custom-font u-text u-text-3" >Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
         </h3>
         <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{!! asset('assets/img/images/HizkiaAryaDianKristanda_Kordinator_Personilbandosis1.png') !!}" alt="" data-image-width="268" data-image-height="268">
         <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{!! asset('assets/images/manusa/ceka.png') !!}" alt="" data-image-width="280" data-image-height="281">
-        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4">Hizkia Arya D.K</h2>
-        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-5">Manda Christoffel K</h2>
+        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4" style="font-family: 'Poppins'; color: #000;">Hizkia Arya D.K</h2>
+        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-5" style="font-family: 'Poppins'; color: #000;">Manda Christoffel K</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-6">Koordinator Pensi Virtual</h3>
         <h3 class="u-align-center u-custom-font u-text u-text-7">Ketua Pelaksana Pensi Virtual</h3>
         <img class="u-image u-image-default u-preserve-proportions u-image-4" src="{!! asset('assets/img/images/IMG_20220212_195406.png') !!}" alt="" data-image-width="300" data-image-height="300">
         <img class="u-image u-image-default u-preserve-proportions u-image-5" src="{!! asset('assets/img/images/c0940d7d-01c6-47bb-9ca8-bdd5b0db0d7a.png') !!}" alt="" data-image-width="300" data-image-height="300">
-        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-8">Jamil Ana Latifah</h2>
-        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-9">Zakiah Andini</h2>
+        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-8" style="font-family: 'Poppins'; color: #000;">Jamil Ana Latifah</h2>
+        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-9" style="font-family: 'Poppins'; color: #000;">Zakiah Andini</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-10">Sekretaris Pensi Virtual</h3>
         <h3 class="u-align-center u-custom-font u-text u-text-11">Bendahara Pensi Virtual</h3>
       </div>
