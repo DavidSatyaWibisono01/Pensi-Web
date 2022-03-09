@@ -215,29 +215,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
-                    <div id="carouselExampleControls" class="carousel slide slides" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="{!! asset('assets/images/sliders/slider1.png') !!}" class="d-block w-100" alt="">
-                            </div>
-                            <div class="carousel-item">
-                            <img src="{!! asset('assets/images/sliders/slider2.png') !!}" class="d-block w-100" alt="">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
                     <div class="title">
-                        <h2>Virtual Annual Festival</h2>
-                        <p>Pameran karya dari kompetensi keahlian adalah pameran karya dan inovasi yang telah dibuat oleh ke-7 kompetensi keahlian yang ada di SMK Wikrama. Pameran ini dilakukan secara daring dengan menerapkan konsep 3D melalui website sebagai media yang nanti akan dikunjungi oleh siswa/siswi SMK Wikrama dimanapun dan kapanpun. Dalam pameran virtual, para penikmat karya tidak harus datang ke lokasi pameran. Alih-alih semua orang dapat menikmati kreativitas siswa siswi SMK Wikrama Bogor melalui daring atau secara online.</p>
+                        <h2 class="mb-4">Virtual Annual Festival</h2>
+                        <iframe class="vid-pensi" src="https://www.youtube.com/embed/Jbn5SQTL5E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="mt-4">Pameran karya dari kompetensi keahlian adalah pameran karya dan inovasi yang telah dibuat oleh ke-7 kompetensi keahlian yang ada di SMK Wikrama. Pameran ini dilakukan secara daring dengan menerapkan konsep 3D melalui website sebagai media yang nanti akan dikunjungi oleh siswa/siswi SMK Wikrama dimanapun dan kapanpun. Dalam pameran virtual, para penikmat karya tidak harus datang ke lokasi pameran. Alih-alih semua orang dapat menikmati kreativitas siswa siswi SMK Wikrama Bogor melalui daring atau secara online.</p>
                     </div>
                 </div>
             </div>
