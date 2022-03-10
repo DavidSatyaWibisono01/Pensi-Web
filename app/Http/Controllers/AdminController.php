@@ -45,4 +45,8 @@ class AdminController extends Controller
  
     return redirect('/');
 }
+ 	public function delete($id){
+      Pengunjung::destroy($id);
+        return redirect('/admin')->with('succses', 'Suplayer Berhasil Dihapus');
+    }
 }
