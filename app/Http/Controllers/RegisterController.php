@@ -39,8 +39,12 @@ class RegisterController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name'=>'required',
-            'asal_instansi'=>'required',
+            'name'=>['required', 
+               'min:4','max:64', 
+               'regex:/(^([a-zA-z ]+)(\d+)?$)/u'],
+            'asal_instansi'=>['required', 
+               'min:4','max:64', 
+               'regex:/(^([a-zA-z ]+)(\d+)?$)/u'],
         ]);
         if(Pengunjung::where([['name',$request->name],['asal_instansi',$request->asal_instansi]])->first() == null ) { 
             Pengunjung::create($request->all());
