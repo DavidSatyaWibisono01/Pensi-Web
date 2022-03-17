@@ -47,7 +47,7 @@
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand logo-img" href="/">
-                                <img src="assets/images/logo/logo-osis.png" alt="">
+                                <img src="assets/images/logo/logo-wk.png" alt="">
                                 <!-- <a class="osismpr-nav" href="#">OSIS MPR</a> -->
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
@@ -217,8 +217,10 @@
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
                     <div class="title">
                         <h2 class="mb-4">Virtual Annual Festival</h2>
-                        <iframe class="vid-pensi" src="https://www.youtube.com/embed/Jbn5SQTL5E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p class="mt-4">Pameran karya dari kompetensi keahlian adalah pameran karya dan inovasi yang telah dibuat oleh ke-7 kompetensi keahlian yang ada di SMK Wikrama. Pameran ini dilakukan secara daring dengan menerapkan konsep 3D melalui website sebagai media yang nanti akan dikunjungi oleh siswa/siswi SMK Wikrama dimanapun dan kapanpun. Dalam pameran virtual, para penikmat karya tidak harus datang ke lokasi pameran. Alih-alih semua orang dapat menikmati kreativitas siswa siswi SMK Wikrama Bogor melalui daring atau secara online.</p>
+                        <div class="responsive-container">
+                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Jbn5SQTL5E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <p class="text-vid-talent">Pameran karya dari kompetensi keahlian adalah pameran karya dan inovasi yang telah dibuat oleh ke-7 kompetensi keahlian yang ada di SMK Wikrama. Pameran ini dilakukan secara daring dengan menerapkan konsep 3D melalui website sebagai media yang nanti akan dikunjungi oleh siswa/siswi SMK Wikrama dimanapun dan kapanpun. Dalam pameran virtual, para penikmat karya tidak harus datang ke lokasi pameran. Alih-alih semua orang dapat menikmati kreativitas siswa siswi SMK Wikrama Bogor melalui daring atau secara online.</p>
                     </div>
                 </div>
             </div>

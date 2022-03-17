@@ -2055,6 +2055,36 @@ ol {
     display: block;
 }
 
+.responsive-container{
+    position:relative;
+    overflow:hidden;
+    padding-top:56.25%;
+    margin-bottom: -70px;
+}
+@media screen and (max-width: 640px) {
+    .text-vid-talent{
+        margin-top: 70px;
+        text-align: justify;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 1000px) {
+    .text-vid-talent{
+        margin-top: 40px;
+        text-align: justify;
+    }
+}
+
+
+.responsive-iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:80%;
+    height:80%;
+    border:0;
+    margin-left: 11%;
+}
+
 .hero-area .hero-content p {
     margin-top: 30px;
     font-size: 15px;
