@@ -13,7 +13,6 @@ section {
 }
 
 .main {
-    position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -75,7 +74,7 @@ section {
     }
 }
 
-.btn {
+/* .btn {
     color: #fff;
     background: #3a6cf4;
     font-size: 1em;
@@ -92,7 +91,7 @@ section {
 
 .btn:hover {
     background: #235bf6;
-}
+} */
 
 .media-icons {
     margin-top: 50px;
@@ -104,7 +103,7 @@ section {
     margin-right: 30px;
 }
 
-header {
+/* header {
     z-index: 999;
     position: fixed;
     background: rgba(255, 255, 255, 0.1);
@@ -149,7 +148,7 @@ header .navigation a:hover {
 
 header.sticky .navigation a:hover {
     color: #000;
-}
+} */
 
 body {
     min-height: 110vh;
@@ -203,9 +202,24 @@ body {
     width: 80%;
     text-align: center;
 }
+.img-jurusan-kuliner {
+    width: 100%;
+    text-align: center;
+}
 
-.skills {
+/* .skills {
     background: #000016;
+} */
+
+@media screen and (max-width: 991px) {
+    .size-header {
+        margin-top: 2px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .main {
+        min-height: 107vh;
+    }
 }
 
 .skills .content {
@@ -320,7 +334,7 @@ body {
 }
 
 @media (max-width: 1040px) {
-    header {
+    /* header {
         padding: 12px 20px;
     }
 
@@ -360,7 +374,7 @@ body {
         background: #3a6cf4;
         color: #fff;
         transition: 0.3s ease;
-    }
+    } */
 
     .menu-btn {
         position: absolute;

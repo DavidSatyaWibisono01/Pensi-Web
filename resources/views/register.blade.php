@@ -8,11 +8,19 @@
 				<form action="{{ url('/register')}}" method="post" class="login100-form validate-form">
                     @csrf
 					<span class="login100-form-title p-b-26">
-						OSIS MPR
+						Virtual Tour Wikrama Bogor
 					</span>
 					<span class="login100-form-title p-b-48">
-						<img class="logo-wk-login" src="{!! asset('assets/images/logo/logo-osis.png') !!}">
+						<img class="logo-wk-login" src="{!! asset('assets/images/logo/logo-wk.png') !!}">
 					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="email">
+						<input class="input100" type="text" name="email" placeholder="Email">
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="nomor">
+						<input class="input100" type="text" name="nomor" placeholder="Nomor HP">
+					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Masukan Nama">
 						<input class="input100" type="text" name="name" placeholder="Nama" required>

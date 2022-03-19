@@ -4177,6 +4177,7 @@ html {
 body {
     margin: 0;
     font-family: "Poppins";
+    background-color: #f7f8fa;
 }
 article,
 aside,
@@ -6965,6 +6966,11 @@ blockquote.u-text.u-indent-50 {
 .u-spacing-49 .u-social-url + .u-social-url {
     margin-left: 49px;
 }
+
+.color-about {
+    color: #000;
+}
+
 .u-spacing-49.u-icon,
 .u-spacing-49.u-search-icon,
 .u-spacing-49.u-gallery-nav,
@@ -19865,7 +19871,7 @@ h6 {
 }
 .u-body {
     color: #ffffff;
-    background-color: #4b3869;
+    background-color: #f7f8fa;
 }
 /*end-variables color*/
 /*begin-variables font*/
@@ -33936,7 +33942,7 @@ a.u-link.u-text-hover-body-color:hover {
 .u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"] {
-    color: #ffffff !important;
+    color: #000 !important;
 }
 a.u-button-style.u-text-body-alt-color:hover,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"]:hover,
@@ -34646,7 +34652,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-container-style.u-custom-color-1:before,
 .u-table-alt-custom-color-1 tr:nth-child(even) {
     color: #ffffff;
-    background-color: #221449;
+    background-color: #334257;
 }
 
 .u-button-style.u-custom-color-1,
@@ -35439,6 +35445,12 @@ li.active > a.u-button-style.u-button-style.u-border-active-custom-color-8 {
 
 .u-link.u-border-custom-color-8[class*="u-border-"]:hover {
     border-color: #371661 !important;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .jarak-font {
+        top: 15px;
+    }
 }
 
 .u-text-custom-color-1,

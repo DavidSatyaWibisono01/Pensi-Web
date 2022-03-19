@@ -4,7 +4,7 @@
 	<title>Register | Pensi Virtual</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="{!! asset('images/icons/favicon.ico') !!} "/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	<link rel="stylesheet" type="text/css" href="{!! asset('assets/vendor/bootstrap/css/bootstrap.min.css') !!} ">
 	<link rel="stylesheet" type="text/css" href="{!! asset('assets/fonts-register/font-awesome-4.7.0/css/font-awesome.min.css') !!} ">
 	<link rel="stylesheet" type="text/css" href="{!! asset('assets/fonts-register/iconic/css/material-design-iconic-font.min.css') !!} ">

@@ -6,9 +6,14 @@
     <meta name="keywords" content="OM, daftar">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>About Us</title>
+    <title>About Us | Virtual Tour Wikrama</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href=" {!! asset('assets/vendors/owl-carousel/css/owl.carousel.min.css') !!}" />
+    <link rel="stylesheet" href=" {!! asset('assets/vendors/owl-carousel/css/owl.theme.default.css') !!}" />
+    <link rel="stylesheet" href=" {!! asset('assets/vendors/mdi/css/materialdesignicons.min.css') !!}" />
+    <link rel="stylesheet" href=" {!! asset('assets/vendors/aos/css/aos.css') !!}" />
     <link rel="stylesheet" href="{!! asset('assets/css/about-us.css') !!}" media="screen">
+    <link rel="stylesheet" href=" {!! asset('assets/css/style.min.css') !!}" />
     <link rel="stylesheet" href="{!! asset('assets/css/nicepage.css') !!}" media="screen">
     <meta name="generator" content="Nicepage 3.17.2, nicepage.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -30,41 +35,45 @@
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
   </head>
-  <body class="u-body u-overlap u-overlap-transparent">
-    <header class="u-clearfix u-header" id="sec-4807">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-white u-text-1" style="width: 100%;">OSIS MPR</h1>
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-          <div class="menu-collapse u-custom-font" style="font-family: Alata;">
-            <a class="u-button-style u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-nav-link u-text-white" href="#" style="padding: 2px 4px; font-size: calc(1em + 4px);">
-              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-          </symbol>
-          </defs></svg>
-            </a>
+  <body class="u-body u-overlap u-overlap-transparent" id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+    <header id="header-section" style="padding: 0">
+      <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+        <div class="container">
+          <div class="navbar-brand-wrapper d-flex w-100">
+            <img class="mt-2" src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="10%" height="10%" />
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="mdi mdi-menu navbar-toggler-icon" style="color: #000"></span>
+            </button>
           </div>
-          <div class="u-custom-menu u-nav-container" style="right: 80px;">
-            <ul class="u-custom-font u-nav u-unstyled u-nav-1" style="right: 80px;">
-              <li class="u-nav-item" style="right: 80px;">
-                <a class="u-button-style u-nav-link u-text-hover-custom-color-3 u-text-white" style="right: 80px;" href="/dashboard">Home</a>
-            </li>
-          </li></ul>
+          <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+              <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+                <div class="navbar-collapse-logo">
+                  <img src="images/Group2.svg" alt="" />
+                </div>
+                <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="mdi mdi-close navbar-toggler-icon pl-5" style="color: #000"></span>
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Tim Dev</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#committee">Komite Pensi</a>
+              </li>
+              <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+                <a class="btn btn-us" href="/dashboard">Dashboard</a>
+              </li>
+            </ul>
           </div>
-          <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/dashboard">Home</a></li>
-              </li></ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
-    <section class="u-clearfix u-image u-section-1" id="sec-787b" data-image-width="1440" data-image-height="2710">
-      <div class="u-clearfix u-sheet u-sheet-1" style="margin-top: -5%;">
+    <section class="u-clearfix u-image u-section-1" id="wikrama" data-image-width="1440" data-image-height="2710">
+      <div class="u-clearfix u-sheet u-sheet-1" style="margin-top: -15%;">
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/1622451191352-1.png') !!}" alt="" data-image-width="768" data-image-height="767">
         <h1 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1">SMK Wikrama Bogor</h1>
         <h5 class="u-align-left u-custom-font u-text u-text-body-alt-color u-text-2" style="text-align: justify;">SMK Wikrama Bogor didirikan oleh Ir. Itasia Dina Sulvianti dan Dr.H.RP Agus Lelana dibawah naungan Yayasan Prawitama pada tahun 1996 di bekas gudang KUD. Kompetensi keahlian yang pertama dibuka pada saat itu adalah sekretaris dengan jumlah hanya 34 siswa. <br>
@@ -329,7 +338,7 @@
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-white u-section-2" id="sec-af30">
+    <section class="u-clearfix u-white u-section-2" id="team">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h1 class="u-align-center-xs u-custom-font u-text u-text-custom-color-1 u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1">meet our team</h1>
         <div class="u-expanded-width-xs u-list u-list-1">
@@ -362,7 +371,7 @@
                   <div class="u-container-layout u-container-layout-4">
                     <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-2" src="{!! asset('assets/img/images/Group37.png') !!}" alt="" data-image-width="370" data-image-height="404">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-4">Jasmina Salma</h6>
-                    <h6 class="u-custom-font u-text u-text-white u-text-5">Frontend Dev</h6>
+                    <h6 class="u-custom-font u-text u-text-white u-text-5">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-2">
                       <a class="u-social-url" target="_blank" title="Instagram" href="https://www.instagram.com/jsmnslmaaa/"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-grey-30 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9d96"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9d96"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
             z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
@@ -570,7 +579,7 @@
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-white u-section-3" id="sec-66fb">
+    <section class="u-clearfix u-white u-section-3" id="committee">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-custom-color-8 u-text-default u-text-1">and our committee</h1>
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" alt="" data-image-width="358" data-image-height="356">
@@ -729,12 +738,21 @@
 }</style>
     
     
-    <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-8378"><div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <p class="u-custom-font u-small-text u-text u-text-variant u-text-1">&copy;Osis MPR SMK Wikrama Bogor</p>
-      </div></footer>
+    <div class="banner-footer">
+      <div class="container">
+          <footer>
+            <p class="color-footer text-center pt-4">&copy;2022<a href="https://www.instagram.com/om__smkwikrama" class="color-footer px-1">OSIS MPR Wikrama.</a>All rights reserved.</p>
+          </footer>
+      </div>
+  </div>
 
 
     <script class="u-script" type="text/javascript" src="{!! asset('assets/js/jquery.js') !!}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{!! asset('assets/js/nicepage.js') !!}" defer=""></script>
+    <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
+    <script src=" {!! asset('assets/vendors/bootstrap/bootstrap.min.js') !!} "></script>
+    <script src=" {!! asset('assets/vendors/owl-carousel/js/owl.carousel.min.js') !!} "></script>
+    <script src=" {!! asset('assets/vendors/aos/js/aos.js') !!} "></script>
+    <script src=" {!! asset('assets/js/landingpage.js') !!} "></script>
   </body>
 </html>
