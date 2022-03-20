@@ -12,6 +12,8 @@ class Pengunjung extends Model
     protected $fillable = [
         'name',
         'asal_instansi',
+        'email',
+        'no_tlpn',
     ];
 
 }
