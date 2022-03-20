@@ -13,10 +13,10 @@ class AdminController extends Controller
     public function index()
     {
         $pengunjungs=Pengunjung::all();
-        $pengunjugntotal = $pengunjungs->count();
+        $pengunjungtotal = $pengunjungs->count();
         $pengunjungtoday = Pengunjung::whereDate('created_at', Carbon::today())->count();
         $pengunjungfrom = Pengunjung::select('asal_instansi')->distinct()->count('asal_instansi');
-        return view('admin', compact('pengunjungs'));
+        return view('admin.dashboard', compact('pengunjungs','pengunjungtotal','pengunjungtoday','pengunjungfrom'));
     }
     public function login()
     {
