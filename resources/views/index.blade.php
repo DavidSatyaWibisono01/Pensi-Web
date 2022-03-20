@@ -80,7 +80,7 @@
                     <img src=" {!! asset('assets/images/landing-page/meteorite.png') !!}" width="89" height="89" alt="" class="mt-3" />
                     <p class="m-0 py-3 text-muted">Melihat ruang jurusan dengan view 360</p>
                     <div class="btn button-modal" style="background-color: #bbbbf2; border-radius: 5px">
-                      @extends('modal-landing-jurusan/index')
+                      {{-- @extends('modal-landing-jurusan/index') --}}
                       <a data-toggle="modal" data-target="#ModalChoseJurusan">Kunjungi</a>
                     </div>
                   </div>
