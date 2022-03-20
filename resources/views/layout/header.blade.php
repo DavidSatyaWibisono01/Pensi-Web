@@ -5,7 +5,7 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="{{ asset('assets/images/logo.svg')}}" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="{{ asset('assets/images/logo/logo-osis-footer.png')}}" class="mr-2" alt="logo"/></a>
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{ asset('assets/images/logo-mini.svg')}}" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
@@ -75,18 +75,6 @@
             <a class="nav-link" href="{{url('admin')}}">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              <i class="mdi mdi-account-multiple menu-icon"></i>
-              <span class="menu-title">Pengunjung</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              <i class="mdi mdi-account menu-icon"></i>
-              <span class="menu-title">User</span>
             </a>
           </li>
         </ul>
