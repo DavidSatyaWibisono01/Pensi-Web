@@ -6,12 +6,17 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Pengunjung;
 use Illuminate\Support\Facades\Auth;
+use Carbon\Carbon;
 
 class AdminController extends Controller
 {
     public function index()
     {
         $pengunjungs=Pengunjung::all();
+        $pengunjugntotal = $pengunjungs->count();
+        $pengunjungtoday = Pengunjung::whereDate('created_at', Carbon::today())->count();
+        $pengunjungfrom = Pengunjung::select('asal_instansi')->distinct()->count('asal_instansi');
+        dd($pengunjungfrom);
         return view('admin', compact('pengunjungs'));
     }
     public function login()

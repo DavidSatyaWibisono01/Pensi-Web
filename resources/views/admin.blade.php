@@ -1,54 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+@extends('layout.header')
+@section('title','Dashboard')
 
-    <title>Admin</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand">OSIS MPR SMK WIKRAMA BOGOR</a>
-      <div class="d-flex">
-        <a class="btn btn-danger" href="/logout">Logout</a>
+@section('content')
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-12 grid-margin">
+              <div class="row">
+                <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                  <h3 class="font-weight-bold">Welcome Admin</h3>
+                  <h6 class="font-weight-normal mb-0">All systems are running smoothly!</h6>
+                </div>
+                <div class="col-12 col-xl-4">
+                 <div class="justify-content-end d-flex">
+                  <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card tale-bg">
+                <div class="card-people mt-auto">
+                  <img src="{{ asset('assets/images/dashboard/people.svg')}}" alt="people">
+                  <div class="weather-info">
+                    <div class="d-flex">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin transparent">
+              <div class="row">
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-tale">
+                    <div class="card-body">
+                      <p class="mb-4">Today’s Pengunjung</p>
+                      <p class="fs-30 mb-2">4006</p>
+                      <p>10.00% (30 days)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-dark-blue">
+                    <div class="card-body">
+                      <p class="mb-4">Total Pengunjung</p>
+                      <p class="fs-30 mb-2">61344</p>
+                      <p>22.00% (30 days)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                  <div class="card card-light-blue">
+                    <div class="card-body">
+                      <p class="mb-4">Pengujung From</p>
+                      <p class="fs-30 mb-2">34040</p>
+                      <p>2.00% (30 days)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 stretch-card transparent">
+                  <div class="card card-light-danger">
+                    <div class="card-body">
+                      <p class="mb-4">Date Now</p>
+                      <p class="fs-30 mb-2">47033</p>
+                      <p>0.22% (30 days)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        
+        @include('layout.footer')
+        <!-- partial -->
       </div>
-    </div>
-  </nav>
-  <div class="container-sm">
-    <div class="mt-5">
-      <h4>Pengunjung <span>{{$pengunjungs->count()}}</span></h4>
-    </div>
-    <div class="mt-3 border p-1">
-      <table class="table table-responsive table-striped">
-          <thead>
-            <tr>
-              <th width="50px">No</th>
-              <th>Nama</th>
-              <th>Email</th>
-              <th>Nomor Telephone</th>
-              <th>Asal Instansi</th>
-              <th>Terakhir Berkunjung</th>
-            </tr>
-          </thead>
-          <tbody>
-              @foreach($pengunjungs as $usr)
-              <tr>
-                <th scope="row">{{$loop->iteration}}</th>
-                <td>{{$usr->name}}</td>
-                <td>{{$usr->email}}</td>
-                <td>{{$usr->no_tlpn}}</td>
-                <td>{{$usr->asal_instansi}}</td>
-                <td>{{$usr->updated_at}}</td>
-              </tr>
-              @endforeach
-          </tbody>
-        </table>
-    </div>
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
+      <!-- main-panel ends -->
+@endsection
