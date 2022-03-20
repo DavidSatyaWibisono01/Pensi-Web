@@ -39,8 +39,8 @@
                   <div class="card card-tale">
                     <div class="card-body">
                       <p class="mb-4">Today’s Pengunjung</p>
-                      <p class="fs-30 mb-2">4006</p>
-                      <p>10.00% (30 days)</p>
+                      <p class="fs-30 mb-2">{{$pengunjungtoday}}</p>
+                      <p>Orang</p>
                     </div>
                   </div>
                 </div>
@@ -48,8 +48,8 @@
                   <div class="card card-dark-blue">
                     <div class="card-body">
                       <p class="mb-4">Total Pengunjung</p>
-                      <p class="fs-30 mb-2">61344</p>
-                      <p>22.00% (30 days)</p>
+                      <p class="fs-30 mb-2">{{$pengunjungtotal}}</p>
+                      <p>Orang</p>
                     </div>
                   </div>
                 </div>
@@ -59,69 +59,20 @@
                   <div class="card card-light-blue">
                     <div class="card-body">
                       <p class="mb-4">Pengujung From</p>
-                      <p class="fs-30 mb-2">34040</p>
-                      <p>2.00% (30 days)</p>
+                      <p class="fs-30 mb-2">{{$pengunjungfrom}}</p>
+                      <p>Instansi / Sekolah</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 stretch-card transparent">
                   <div class="card card-light-danger">
                     <div class="card-body">
-                      <p class="mb-4">Date Now</p>
-                      <p class="fs-30 mb-2">47033</p>
-                      <p>0.22% (30 days)</p>
+                      <p class="mb-4">Waktu</p>
+                      <p class="fs-30 mb-2" id="clock"></p>
+                      <p id="tanggalwaktu"></p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Data Pengunjung Virtual Tour OSIS MPR Wikrama Bogor</h4>
-              <div class="table-responsive">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th>Profile</th>
-                      <th>VatNo.</th>
-                      <th>Created</th>
-                      <th>Status</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Jacob</td>
-                      <td>53275531</td>
-                      <td>12 May 2017</td>
-                      <td><label class="badge badge-danger">Pending</label></td>
-                    </tr>
-                    <tr>
-                      <td>Messsy</td>
-                      <td>53275532</td>
-                      <td>15 May 2017</td>
-                      <td><label class="badge badge-warning">In progress</label></td>
-                    </tr>
-                    <tr>
-                      <td>John</td>
-                      <td>53275533</td>
-                      <td>14 May 2017</td>
-                      <td><label class="badge badge-info">Fixed</label></td>
-                    </tr>
-                    <tr>
-                      <td>Peter</td>
-                      <td>53275534</td>
-                      <td>16 May 2017</td>
-                      <td><label class="badge badge-success">Completed</label></td>
-                    </tr>
-                    <tr>
-                      <td>Dave</td>
-                      <td>53275535</td>
-                      <td>20 May 2017</td>
-                      <td><label class="badge badge-warning">In progress</label></td>
-                    </tr>
-                  </tbody>
-                </table>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ class CreatePengunjungsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email');
-            $table->bigInteger('no_tlpn');
+            $table->string('no_tlpn');
             $table->string('asal_instansi');
             $table->timestamps();
         });

@@ -77,6 +77,12 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url('pengunjung')}}">
+              <i class="mdi mdi-account-multiple menu-icon"></i>
+              <span class="menu-title">Data Pengunjung</span>
+            </a>
+          </li>
         </ul>
       </nav>
 
