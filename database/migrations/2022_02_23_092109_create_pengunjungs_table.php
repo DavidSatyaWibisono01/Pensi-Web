@@ -16,6 +16,8 @@ class CreatePengunjungsTable extends Migration
         Schema::create('pengunjungs', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('email');
+            $table->bigInteger('no_tlpn');
             $table->string('asal_instansi');
             $table->timestamps();
         });

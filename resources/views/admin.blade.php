@@ -28,7 +28,10 @@
             <tr>
               <th width="50px">No</th>
               <th>Nama</th>
+              <th>Email</th>
+              <th>Nomor Telephone</th>
               <th>Asal Instansi</th>
+              <th>Terakhir Berkunjung</th>
             </tr>
           </thead>
           <tbody>
@@ -36,7 +39,10 @@
               <tr>
                 <th scope="row">{{$loop->iteration}}</th>
                 <td>{{$usr->name}}</td>
+                <td>{{$usr->email}}</td>
+                <td>{{$usr->no_tlpn}}</td>
                 <td>{{$usr->asal_instansi}}</td>
+                <td>{{$usr->updated_at}}</td>
               </tr>
               @endforeach
           </tbody>

@@ -79,12 +79,9 @@
                     <div class="content-divider m-auto"></div>
                     <img src=" {!! asset('assets/images/landing-page/meteorite.png') !!}" width="89" height="89" alt="" class="mt-3" />
                     <p class="m-0 py-3 text-muted">Melihat ruang jurusan dengan view 360</p>
-                    {{-- <div class="btn button-modal" style="background-color: #bbbbf2; padding: 12px 25px; border-radius: 5px">
-                      <a data-bs-toggle="modal" data-bs-target="#exampleModal">Kunjungi</a>
-                    </div> --}}
                     <div class="btn button-modal" style="background-color: #bbbbf2; border-radius: 5px">
-                      <a data-bs-toggle="modal" data-bs-target="#exampleModal">Kunjungi</a>
-                      {{-- @extends('modal-landing-jurusan/index') --}}
+                      @extends('modal-landing-jurusan/index')
+                      <a data-toggle="modal" data-target="#ModalChoseJurusan">Kunjungi</a>
                     </div>
                   </div>
                 </div>

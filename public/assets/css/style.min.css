@@ -437,7 +437,7 @@ mark {
 }
 .img-fluid,
 .img-thumbnail {
-    max-width: 10%;
+    max-width: 50%;
     height: auto;
 }
 @media screen and (max-width: 440px) {
