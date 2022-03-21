@@ -3,6 +3,7 @@
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PengunjungController;
+use App\Http\Controllers\InstansiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,8 +25,10 @@ Route::get('/logout', [AdminController::class, 'logout']);
 Route::get('/login', [AdminController::class, 'login']);
 Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
 Route::get('/pengunjung', [PengunjungController::class, 'index'])->middleware('auth');
+Route::get('/instansi', [InstansiController::class, 'index'])->middleware('auth');
 Route::delete('/admin/pengunjungs/{id}', [AdminController::class, 'delete']);
 Route::get('/pengunjung/export', [PengunjungController::class, 'export']);
+Route::get('/pengunjung/active', [PengunjungController::class, 'active']);
 
 Route::get('/dashboard', function () {
     return view('index')->with('success','Selamat Datang');

@@ -83,6 +83,12 @@
               <span class="menu-title">Data Pengunjung</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url('instansi')}}">
+              <i class="mdi mdi-account-multiple menu-icon"></i>
+              <span class="menu-title">Data Sekolah</span>
+            </a>
+          </li>
         </ul>
       </nav>
 

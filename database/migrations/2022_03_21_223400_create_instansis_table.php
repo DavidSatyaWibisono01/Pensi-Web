@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePengunjungsTable extends Migration
+class CreateInstansisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,9 @@ class CreatePengunjungsTable extends Migration
      */
     public function up()
     {
-        Schema::create('pengunjungs', function (Blueprint $table) {
+        Schema::create('instansis', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email');
-            $table->string('no_tlpn');
-            $table->string('asal_instansi');
-            $table->enum('status', ['active', 'tidak active']);
+            $table->string('nama_instansi');
             $table->timestamps();
         });
     }
@@ -31,6 +27,6 @@ class CreatePengunjungsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pengunjungs');
+        Schema::dropIfExists('instansis');
     }
 }
