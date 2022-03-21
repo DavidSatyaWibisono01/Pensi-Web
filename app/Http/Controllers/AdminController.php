@@ -16,7 +16,6 @@ class AdminController extends Controller
         $pengunjugntotal = $pengunjungs->count();
         $pengunjungtoday = Pengunjung::whereDate('created_at', Carbon::today())->count();
         $pengunjungfrom = Pengunjung::select('asal_instansi')->distinct()->count('asal_instansi');
-        dd($pengunjungfrom);
         return view('admin', compact('pengunjungs'));
     }
     public function login()
