@@ -4,6 +4,9 @@
 <div class="main-panel">
     <div class="content-wrapper">   
         <div class="card ">
+            <div calss="">
+                <a class="btn btn-info btn-md" href="{{url('/pengunjung/export')}}">Download Excel</a>
+            </div>
             <div class="card-body">
                 <h4 class="card-title">Data Pengunjung Virtual Tour OSIS MPR Wikrama Bogor</h4>
                 <div class="table-responsive">

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Pengunjung;
 use Illuminate\Http\Request;
+use App\Exports\PengunjungsExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 class PengunjungController extends Controller
 {
@@ -82,5 +84,9 @@ class PengunjungController extends Controller
     public function destroy(Pengunjung $pengunjung)
     {
         //
+    }
+    public function export() 
+    {
+        return Excel::download(new PengunjungsExport, 'pengunjungs.xlsx');
     }
 }
