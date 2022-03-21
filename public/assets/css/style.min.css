@@ -436,50 +436,19 @@ mark {
     content: "\2014\00A0";
 }
 /* .img-fluid, */
+.img-fluid,
 .img-thumbnail {
-    max-width: 50%;
+    width: 50%;
     height: auto;
 }
-@media screen and (max-width: 440px) {
-    .img-fluid,
-    .img-thumbnail {
-        width: 95%;
-        height: auto;
+@media screen and (max-width: 720px) {
+    .img-fluid{
+        width: 300px;
     }
 }
-@media screen and (min-width: 441px) and (max-width: 720px) {
-    .img-fluid,
-    .img-thumbnail {
-        width: 70%;
-        height: auto;
-    }
-}
-@media screen and (min-width: 721px) and (max-width: 767px) {
-    .img-fluid,
-    .img-thumbnail {
-        width: 60%;
-        height: auto;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .img-fluid,
-    .img-thumbnail {
-        width: 50%;
-        height: auto;
-    }
-}
-@media screen and (min-width: 992px) and (max-width: 1099px) {
-    .img-fluid,
-    .img-thumbnail {
-        width: 50%;
-        height: auto;
-    }
-}
-@media screen and (min-width: 1100px) and (max-width: 1400px) {
-    .img-fluid,
-    .img-thumbnail {
-        width: 45%;
-        height: auto;
+@media screen and (min-width: 640) and (max-width: 720px) {
+    .img-fluid{
+        width: 700px;
     }
 }
 .img-thumbnail {
@@ -9003,7 +8972,7 @@ footer a:hover {
         height: 550px;
     }
     .banner-landing {
-        height: 620px;
+        height: 680px;
     }
     .font-weight-semibold {
         margin-top: 114px;
