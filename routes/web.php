@@ -25,6 +25,7 @@ Route::get('/login', [AdminController::class, 'login']);
 Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
 Route::get('/pengunjung', [PengunjungController::class, 'index'])->middleware('auth');
 Route::delete('/admin/pengunjungs/{id}', [AdminController::class, 'delete']);
+Route::get('/pengunjung/export', [PengunjungController::class, 'export']);
 
 Route::get('/dashboard', function () {
     return view('index')->with('success','Selamat Datang');
