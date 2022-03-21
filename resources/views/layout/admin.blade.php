@@ -22,7 +22,7 @@
   <!-- endinject -->
   <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png')}}" />
 </head>
-<body>
+<body  onload="realtimeClock()">
     @yield('header')
     @yield('body')
   <!-- plugins:js -->
@@ -46,6 +46,8 @@
   <script src="{{asset('assets/js/dashboard.js')}}"></script>
   <script src="{{asset('assets/js/Chart.roundedBarCharts.js')}}"></script>
   <!-- End custom js for this page-->
+  <!-- datetime scripts -->
+  <script src="{{asset('assets/js/jam.js')}}"></script>
 </body>
 </html>
 
