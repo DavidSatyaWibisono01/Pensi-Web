@@ -20,6 +20,12 @@ class PengunjungController extends Controller
         return view('admin.pengunjung', compact('pengunjungs'));
     }
 
+    public function active()
+    {
+        $data = Pengunjung::where('status','active')->count();
+        return response()->json($data);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

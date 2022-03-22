@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Pengunjung;
+use App\Models\Instansi;
 use Carbon\Carbon;
 
 class RegisterController extends Controller
@@ -51,11 +52,19 @@ class RegisterController extends Controller
                
         ]);
         if(Pengunjung::where([['name',$request->name],['asal_instansi',$request->asal_instansi],['email',$request->email],['no_tlpn',$request->no_tlpn]])->first() == null ) { 
-            Pengunjung::create($request->all());
+            Pengunjung::create([
+                'name' => $request->name,
+                'asal_instansi' => $request->asal_instansi,
+                'email' => $request->email,
+                'no_tlpn' => $request->no_tlpn,
+                'status' => 'active',
+            ]);
+            Instansi::updateOrCreate(['nama_instansi' => $request->asal_instansi],
+            ['nama_instansi' => $request->asal_instansi]);
             $request->session()->put('status', "Sudah Masuk");
             return redirect('/dashboard')->with('success','Selamat Datang')->with('user', $request->username);
          }
-        Pengunjung::where([['name',$request->name],['asal_instansi',$request->asal_instansi],['email',$request->email],['no_tlpn',$request->no_tlpn]])->update(['updated_at' => Carbon::now()]);
+        Pengunjung::where([['name',$request->name],['asal_instansi',$request->asal_instansi],['email',$request->email],['no_tlpn',$request->no_tlpn]])->update(['updated_at' => Carbon::now(),'status' => 'active']);
         return redirect('/dashboard')->with('success','Selamat Datang')->with('user', $request->username);
     }
 

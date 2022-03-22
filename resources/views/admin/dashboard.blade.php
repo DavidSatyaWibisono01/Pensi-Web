@@ -28,6 +28,13 @@
                   <img src="{{ asset('assets/images/dashboard/people.svg')}}" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
+                      <div>
+                        <h2 id="online" class="mb-0 font-weight-normal">0</h2>
+                      </div>
+                      <div class="ml-2">
+                        <h4 class="location font-weight-normal">Pengunjung</h4>
+                        <h6 class="font-weight-normal text-success"><span class="count"></span>Online</h6>
+                      </div>
                     </div>
                   </div>
                 </div>

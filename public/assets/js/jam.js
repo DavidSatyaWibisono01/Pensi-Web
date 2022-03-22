@@ -2,6 +2,10 @@ function getServerTime() {
     return $.ajax({ async: false }).getResponseHeader('Date');
 }
 function realtimeClock() {
+    $.get('pengunjung/active', function (data) {
+        document.getElementById("online").innerHTML = data;
+    });
+    
     var rtClock = new Date();
     var rtClock = new Date(getServerTime());
     var hours = rtClock.getHours();
