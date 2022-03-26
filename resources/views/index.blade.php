@@ -79,10 +79,8 @@
                     <div class="content-divider m-auto"></div>
                     <img src=" {!! asset('assets/images/landing-page/meteorite.png') !!}" width="89" height="89" alt="" class="mt-3" />
                     <p class="m-0 py-3 text-muted">Melihat ruang jurusan dengan view 360</p>
-                    <div class="btn button-modal" style="background-color: #bbbbf2; border-radius: 5px">
-                      {{-- @extends('modal-landing-jurusan/index') --}}
-                      <a data-toggle="modal" data-target="#ModalChoseJurusan">Kunjungi</a>
-                    </div>
+                    <!-- Trigger/Open The Modal -->
+                    <button class="btn button-modal" style="background-color: #bbbbf2; border-radius: 5px" id="myBtn">Kunjungi</button>
                   </div>
                 </div>
               </div>
@@ -116,11 +114,51 @@
                 </div>
               </div>
             </div>
-
-
           </div>
         </section>
         <!-- End 3 Modal Utama Pensi -->
+
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h5 class="mt-3"><b>Ruang Jurusan</b></h5>
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/pengembangan-perangkat-lunak-dan-gim">PPLG</a>
+            <!-- End Pembatas Card -->
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/desain-komunikasi-visual">DKV</a>
+            <!-- End Pembatas Card -->
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/teknik-jaringan-komputer-dan-telekomunikasi">TJKT</a>
+            <!-- End Pembatas Card -->
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/pemasaran">PMN</a>
+            <!-- End Pembatas Card -->
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/hotel">Hotel</a>
+            <!-- End Pembatas Card -->
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/manajemen-perkantoran-dan-layanan-bisnis">MPLB</a>
+            <!-- End Pembatas Card -->
+
+            <!-- Pembatas Card -->
+              <a class="button-modal button-modal-card mt-3" target="_blank" href="/kuliner">Kuliner</a>
+            <!-- End Pembatas Card -->
+
+          </div>
+
+        </div>
+        <!-- End Modal -->
 
         <!-- 3 Modal Utama Pensi -->
         <section class="features-overview" id="features-section">
@@ -178,6 +216,34 @@
     </div>
     <!-- End 3 Modal Utama Pensi -->
 
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
     <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/bootstrap/bootstrap.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/owl-carousel/js/owl.carousel.min.js') !!} "></script>

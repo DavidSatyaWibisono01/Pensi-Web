@@ -42,13 +42,13 @@ Route::get('/cbt-wikrama', function () {
     return view('cbt');
 });
 
-Route::get('/dkv', function () {
+Route::get('/desain-komunikasi-visual', function () {
     return view('rombel.dkv');
 });
-Route::get('/pplg', function () {
+Route::get('/pengembangan-perangkat-lunak-dan-gim', function () {
     return view('rombel.pplg');
 });
-Route::get('/tjkt', function () {
+Route::get('/teknik-jaringan-komputer-dan-telekomunikasi', function () {
     return view('rombel.tjkt');
 });
 Route::get('/pemasaran', function () {
@@ -60,6 +60,6 @@ Route::get('/hotel', function () {
 Route::get('/kuliner', function () {
     return view('rombel.kuliner');
 });
-Route::get('/mplb', function () {
+Route::get('/manajemen-perkantoran-dan-layanan-bisnis', function () {
     return view('rombel.mplb');
 });

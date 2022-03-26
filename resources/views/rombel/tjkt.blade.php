@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruang Jurusan | Pemasaran</title>
+    <title>Ruang Jurusan | Teknik Jaringan Komputer dan Telekomunikasi</title>
     <link rel="stylesheet" href="{!! asset('assets/css/style-jurusan.css') !!}">
     <link rel="stylesheet" href=" {!! asset('assets/vendors/owl-carousel/css/owl.carousel.min.css') !!}" />
     <link rel="stylesheet" href=" {!! asset('assets/vendors/owl-carousel/css/owl.theme.default.css') !!}" />

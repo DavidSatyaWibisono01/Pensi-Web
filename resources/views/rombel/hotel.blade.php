@@ -44,7 +44,7 @@
                 <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#virtual-tour">Virtual Tour</a>
+                <a class="nav-link" href="#virtual-tour">Ruangan</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#keahlian">Keahlian</a>
