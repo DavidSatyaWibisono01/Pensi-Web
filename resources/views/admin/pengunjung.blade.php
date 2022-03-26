@@ -6,7 +6,7 @@
         <div class="card ">
             <div class="card-body">
                 <div calss="mb-3">
-                    <a class="btn btn-success btn-md" href="{{url('/pengunjung/export')}}">Download Excel</a>
+                    <a class="btn btn-success btn-md mb-4" href="{{url('/pengunjung/export')}}">Download Excel</a>
                 </div>
                 <h4 class="card-title">Data Pengunjung Virtual Tour OSIS MPR Wikrama Bogor</h4>
                 <div class="table-responsive">
@@ -18,7 +18,7 @@
                         <th>Email</th>
                         <th>Nomor Telephone</th>
                         <th>Asal Instansi</th>
-                        <th>Terakhir Berkunjung</th>
+                        <th>Jam Berkunjung</th>
                         <th>Aksi</th>
                     </tr>
                     </thead>
@@ -31,11 +31,14 @@
                         <td>{{$pengunjung->no_tlpn}}</td>
                         <td>{{$pengunjung->asal_instansi}}</td>
                         <td>{{$pengunjung->updated_at}}</td>
-                        <td><form action="{{ url('/admin/pengunjungs/'.$pengunjung->id) }}" method="post" class="d-inline">
-                        @method('DELETE')
-                        @csrf
-                        <button class="btn btn-danger btn-sm text-white" onclick="return confirm('Apakah kamu yakin untuk menghapus data ini?');"><i class="mdi mdi-delete"></i></i></button>
-                        </form></td>
+                        <td>
+                            <a class="btn btn-info btn-sm" href="{{url('tracking/'.$pengunjung->id)}}"><i class="mdi mdi-information-outline"></i></a>  
+                            <form action="{{ url('/admin/pengunjungs/'.$pengunjung->id) }}" method="post" class="d-inline">
+                            @method('DELETE')
+                            @csrf
+                            <button class="btn btn-danger btn-sm text-white" onclick="return confirm('Apakah kamu yakin untuk menghapus data ini?');"><i class="mdi mdi-delete"></i></button>
+                            </form>
+                        </td>
                     </tr>
                     @endforeach
                     </tbody>

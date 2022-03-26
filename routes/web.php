@@ -30,6 +30,16 @@ Route::delete('/admin/pengunjungs/{id}', [AdminController::class, 'delete']);
 Route::get('/pengunjung/export', [PengunjungController::class, 'export']);
 Route::get('/pengunjung/active', [PengunjungController::class, 'active']);
 
+Route::get('/tracking/{id}', [PengunjungController::class, 'trackingIndex']);
+
+Route::get('/desain-komunikasi-visual', [PengunjungController::class, 'dkv']);
+Route::get('/pengembangan-perangkat-lunak-dan-gim', [PengunjungController::class, 'pplg']);
+Route::get('/teknik-jaringan-komputer-dan-telekomunikasi', [PengunjungController::class, 'tjkt']);
+Route::get('/pemasaran', [PengunjungController::class, 'pemasaran']);
+Route::get('/hotel', [PengunjungController::class, 'hotel']);
+Route::get('/kuliner', [PengunjungController::class, 'kuliner']);
+Route::get('/manajemen-perkantoran-dan-layanan-bisnis', [PengunjungController::class, 'mplb']);
+
 Route::get('/dashboard', function () {
     return view('index')->with('success','Selamat Datang');
 });
@@ -42,24 +52,3 @@ Route::get('/cbt-wikrama', function () {
     return view('cbt');
 });
 
-Route::get('/desain-komunikasi-visual', function () {
-    return view('rombel.dkv');
-});
-Route::get('/pengembangan-perangkat-lunak-dan-gim', function () {
-    return view('rombel.pplg');
-});
-Route::get('/teknik-jaringan-komputer-dan-telekomunikasi', function () {
-    return view('rombel.tjkt');
-});
-Route::get('/pemasaran', function () {
-    return view('rombel.pemasaran');
-});
-Route::get('/hotel', function () {
-    return view('rombel.hotel');
-});
-Route::get('/kuliner', function () {
-    return view('rombel.kuliner');
-});
-Route::get('/manajemen-perkantoran-dan-layanan-bisnis', function () {
-    return view('rombel.mplb');
-});

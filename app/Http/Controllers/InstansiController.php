@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Instansi;
+use App\Models\Pengunjung;
 use App\Http\Requests\StoreInstansiRequest;
 use App\Http\Requests\UpdateInstansiRequest;
 
@@ -16,7 +17,8 @@ class InstansiController extends Controller
     public function index()
     {
         $instansis=Instansi::latest()->paginate(10);
-        return view('admin.instansi', compact('instansis'));
+        $pengunjung=Pengunjung::all();
+        return view('admin.instansi', compact('instansis','pengunjung'));
     }
 
     /**
