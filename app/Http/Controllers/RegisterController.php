@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Pengunjung;
 use App\Models\Instansi;
+use App\Models\Tracking;
 use Carbon\Carbon;
 
 class RegisterController extends Controller
@@ -61,10 +62,17 @@ class RegisterController extends Controller
             ]);
             Instansi::updateOrCreate(['nama_instansi' => $request->asal_instansi],
             ['nama_instansi' => $request->asal_instansi]);
+            $id = Pengunjung::select('id')->where([['name',$request->name],['asal_instansi',$request->asal_instansi],['email',$request->email],['no_tlpn',$request->no_tlpn]])->first();
+            $request->session()->put('pengunjung_id',$id->id);
+            Tracking::create([
+                'pengunjung_id' => $id->id
+            ]);
             $request->session()->put('status', "Sudah Masuk");
             return redirect('/dashboard')->with('success','Selamat Datang')->with('user', $request->username);
          }
         Pengunjung::where([['name',$request->name],['asal_instansi',$request->asal_instansi],['email',$request->email],['no_tlpn',$request->no_tlpn]])->update(['updated_at' => Carbon::now(),'status' => 'active']);
+        $id = Pengunjung::select('id')->where([['name',$request->name],['asal_instansi',$request->asal_instansi],['email',$request->email],['no_tlpn',$request->no_tlpn]])->first();
+        $request->session()->put('pengunjung_id',$id->id);
         return redirect('/dashboard')->with('success','Selamat Datang')->with('user', $request->username);
     }
 
