@@ -120,43 +120,92 @@
 
 
         <!-- Modal -->
-        <div id="myModal" class="modal">
+        <div id="myModal" class="modal" style="overflow: scroll;">
 
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close">&times;</span>
-            <h5 class="mt-3"><b>Ruang Jurusan</b></h5>
+            <h4 class="mt-3"><b>Ruang Jurusan</b></h4>
+            <img class="img-modal mt-2" src="{!! asset('assets/images/logo/logo-wk.png') !!}">
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/pengembangan-perangkat-lunak-dan-gim">PPLG</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Pengembangan Perangkat Lunak dan Gim</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/pengembangan-perangkat-lunak-dan-gim">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/desain-komunikasi-visual">DKV</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Desain Komunikasi Visual</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/desain-komunikasi-visual">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/teknik-jaringan-komputer-dan-telekomunikasi">TJKT</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Teknik Jaringan Komputer dan Telekomunikasi</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/teknik-jaringan-komputer-dan-telekomunikasi">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/pemasaran">PMN</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Manajemen Perkantoran dan Layanan Bisnis</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/manajemen-perkantoran-dan-layanan-bisnis">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/hotel">Hotel</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Pemasaran</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/pemasaran">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/manajemen-perkantoran-dan-layanan-bisnis">MPLB</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Hotel</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/hotel">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
             <!-- Pembatas Card -->
-              <a class="button-modal button-modal-card mt-3" target="_blank" href="/kuliner">Kuliner</a>
+              <div class="card-in-modal">
+                <div class="container-in-modal">
+                  <h4>Kuliner</h4> 
+                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p> 
+                  <a class="button-modal button-modal-card" target="_blank" href="/kuliner">Kunjungi</a>
+                </div>
+              </div>
             <!-- End Pembatas Card -->
 
           </div>
-
         </div>
         <!-- End Modal -->
 
