@@ -78,13 +78,31 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<iframe src="https://momento360.com/e/u/7a720958c3374ec79ab348085a79d0c3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium" width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe><br><br>
+      		<iframe src="https://momento360.com/e/u/7a720958c3374ec79ab348085a79d0c3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium" width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl">klik disini untuk info detail view 360</span><br><br>
       	</div>
           <h2 class="content-title">Manajemen Perkantoran dan Layanan Bisnis</h2>
           <p class="paragraph-text">Jurusan Manajemen Perkantoran dan Layanan Bisnis Wikrama dikenal dengan jurusan yang banyak mencetak calon sekretaris handal dan kompeten di bidang administrasi, keuangan hingga penanganan tamu. Kompetensi keahlian MPLB didirikan pada tahun 1996 dengan akreditasi A (amat baik)<br><br>Sertifikasi: TOEIC (Test of English for International Communication), tes mengetik internasional (typingweb.com), Microsoft Office Specialist (MOS – Certiport)</p>
         </div>
       </div>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModall" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h5 class="mt-3"><b>Pengertian View 360</b></h5>
+            <p>View 360 adalah sebuah fitur yang dimana kita dapat melihat sebuah objek dengan pemandangan full yang dapat kita gerakkan sesuai arah yang kita inginkan</p>
+            <br>
+            <h5><b>Cara menggunakan View 360</b></h5>
+            <ol class="ml-3">
+                <li>Sentuh Objek pada gambar yang akan digerakkan, gambar bisa digerakkan ke seluruh arah sesuai keinginan kita</li>
+                <li>klik icon 'perbesar layar' untuk melihat ruangan jurusan secara fullscreen</li>
+            </ol>
+        </div>
+
+    </div>
 
     <section class="skills">
       <div class="title reveal">
@@ -102,7 +120,7 @@
         </div>
       </div>
     </section>
- 
+
     <section class="work">
       <div class="title reveal">
         <h2 class="section-title" id="about-dkv">Dokumentasi</h2>
@@ -150,6 +168,34 @@
       </div>
   </div>
 
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModall");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtnMdl");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
     <script src="{!! asset('assets/js/script-jurusan.js') !!}" charset="utf-8"></script>
     <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/bootstrap/bootstrap.min.js') !!} "></script>
