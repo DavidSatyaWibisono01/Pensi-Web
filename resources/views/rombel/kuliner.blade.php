@@ -78,7 +78,7 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<img class="img-jurusan" src="{!! asset('assets/images/jurusan/kuliner/kuliner.jpeg') !!}" alt=""><br><br>
+      		<img class="img-jurusan" src="https://drive.google.com/uc?id=1r2UYYVlgXuIiHv0PzOKBtlogBIi4aPKE"><br><br>
       	</div>
           <h2 class="content-title">Kuliner</h2>
           <p class="paragraph-text">Kompetensi Keahlian Kuliner SMK Wikrama Bogor didirikan pada tahun 2017 dan terakreditasi B (baik), merupakan salah satu jurusan atau kompetensi yang memberikan Pelajaran di bidang Pengolahan dan Penyajian Makanan baik oriental maupun kontinental serta mampu memberikan pelayanan makanan dan minuman di restoran (Food and Beverage Service).</p>
@@ -93,7 +93,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-box">
-            <img class="img-jurusan-kuliner" src="{!! asset('assets/images/jurusan/kuliner/work1.jpg ') !!}" alt=""><br><br>
+            <img class="img-jurusan-kuliner" src="https://drive.google.com/uc?id=1-zmy5_PbRicedJOXEKuWLNMq9zwL0iHX"><br><br>
           </div>
         </div>
         <div class="column col-right reveal">
@@ -110,32 +110,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/kuliner/work1.jpg ') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1-zmy5_PbRicedJOXEKuWLNMq9zwL0iHX">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/kuliner/work2.jpg ') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1Dj2Vcq-aS5WxER2VvhThQqBlaa0w8KEh">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/kuliner/work3.jpg ') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1U6hV0vL3wcqs_OK0cXf__dIkEXcIoGiZ">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/kuliner/work4.jpg ') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=16k7KjoVoFTatVFG81RPcVMHWGUKHL9_8">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/kuliner/work5.jpg ') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1ed3ShynXrCQoFqTFK2hQ9CKqqlVKS2gH">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/kuliner/work6.jpg ') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1uPA7Yrv2jkTdyfkJjd79vuQPY1Ec0FA8">
           </div>
         </div> 
       </div>

@@ -93,7 +93,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset('assets/images/jurusan/mplb/img.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1c3SzY3-xgn2FIH8B0MMMmE43U4OMJEGv">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -110,32 +110,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/mplb/work1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1PL7jiHzCPMpPAmooQnzISTI_CPBGGBw4">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/mplb/work2.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=13RO3aujmw7zpkXClhlhpWKlI1r-gJfOE">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/mplb/work3.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1d25bSLtAqUd4_Lo-RKwy-gD3QFS9Cgdp">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/mplb/work4.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1ixjZKJB26UVFs6yDAY8BKB2Gd9E19PR0">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/mplb/work5.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=14f_6kqbl3-wq2Z8XmL2tXpV8fG93Odmx">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/mplb/work6.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1hLSmjEiJP_xH-Luwh1lAIk-jUNbycRGc">
           </div>
         </div>
       </div>

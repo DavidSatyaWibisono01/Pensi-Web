@@ -96,7 +96,8 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset('assets/images/jurusan/pmn/img1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1YPwaXMs_CyLzcIVC4CIDPJfkgsJE-xW1">
+          </div>
           </div>
         </div>
         <div class="column col-right reveal">
@@ -113,33 +114,36 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pmn/work1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=18VuL5BDdIWlXI9vYBxXtsejfupjjOrQp">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pmn/work2.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1Ns_rEcCBs6ZeIjIgslA9LfiyruRnywIM">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pmn/work3.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1Uu-gqIwWbTLcBU-zk8k4_V1oSKMaj-yX">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pmn/work4.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1unyr2YsFfG1gHiQDBBKGq63Ab3OFviJj">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pmn/work5.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1FJERNkTGr-kMUP4jddfKMyVyLhRM5Pb4">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pmn/work6.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1aShHAXsZaRecZrGLNG5Sn2IqlBsAAQAQ">
           </div>
+        </div>
+      </div>
+        </div>
         </div>
       </div>
     </section>

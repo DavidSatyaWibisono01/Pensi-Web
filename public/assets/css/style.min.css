@@ -487,19 +487,30 @@ mark {
     content: "\2014\00A0";
 }
 /* .img-fluid, */
-.img-fluid,
+.img-fluid img,
 .img-thumbnail {
-    width: 50%;
+    width: 35%;
     height: auto;
+    margin: auto;
 }
 @media screen and (max-width: 720px) {
-    .img-fluid{
+    .img-fluid img{
+        width: 230px;
+    }
+}
+@media screen and (min-width: 721px) and (max-width: 1149px) {
+    .img-fluid img{
         width: 300px;
     }
 }
-@media screen and (min-width: 640) and (max-width: 720px) {
-    .img-fluid{
-        width: 700px;
+@media screen and (min-width: 1150px) and (max-width: 1200px) {
+    .img-fluid img{
+        width: 400px;
+    }
+}
+@media screen and (min-width: 1150px) and (max-width: 1400px) {
+    .img-fluid {
+    padding-bottom: 10px;
     }
 }
 .img-thumbnail {
@@ -9008,10 +9019,10 @@ footer a:hover {
     border-color: red;
     transform: scale(0.9);
 }
-.owl-carousel .owl-item {
+.owl-carousel .owl-carousell .owl-item {
     padding: 16px 0;
 }
-.owl-carousel .owl-item img {
+.owl-carousel .owl-carousell .owl-item img {
     width: auto;
     margin: 0 auto;
 }
@@ -9034,16 +9045,16 @@ footer a:hover {
     .navbar {
         background-color: #f7f8fa;
         padding: 25px 0 15px;
-        margin-bottom: -100px;
+        /*margin-bottom: -100px;*/
     }
     .banner {
         height: 550px;
     }
     .banner-landing {
-        height: 680px;
+        height: 635px;
     }
     .font-weight-semibold {
-        margin-top: 114px;
+        margin-top: 45px;
     }
 }
 /* @media screen and (min-width: 386px) and (max-width: 991px) {
@@ -9074,6 +9085,7 @@ footer a:hover {
     padding: 0 17px;
     font-weight: 500;
     color: #111;
+    width: max-content;
 }
 .navbar .navbar-menu-wrapper .navbar-nav .nav-link:hover {
     color: red;
@@ -9129,6 +9141,10 @@ footer a:hover {
 }
 .grid-margin {
     margin-bottom: 100px;
+}
+.grid-margins {
+    margin-bottom: 100px;
+    margin-left: auto;
 }
 @media (max-width: 992px) {
     .grid-margin {
@@ -9429,7 +9445,7 @@ footer a:hover {
     border-radius: 6px;
 }
 .card .card-body {
-    padding: 43px 36px;
+    padding: 28px 36px;
 }
 .card .card-body .card-title {
     font-size: 18px;
@@ -9448,6 +9464,7 @@ footer a:hover {
 }
 .modal-content {
     width: 500px;
+    border-radius: 8px;
 }
 @media (max-width: 575px) {
     .modal-content {

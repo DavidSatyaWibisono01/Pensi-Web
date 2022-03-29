@@ -25,6 +25,7 @@ section {
 
 .main .content {
     max-width: 800px;
+    margin-top: -180px;
 }
 
 .main .content h2 {
@@ -34,14 +35,21 @@ section {
 }
 
 .main .content h2 span {
-    font-size: 1.8em;
+    font-size: 2.1em;
     font-weight: 600;
 }
+
+/*@media screen and (max-width: 1040px) {
+    .main .content .judul-landing h2 span {
+    font-size: 2.8em;
+}
+}*/
 
 .animated-text {
     position: relative;
     height: 70px;
     overflow: hidden;
+    margin-top: 35px;
 }
 
 .animated-text h3 {
@@ -101,6 +109,18 @@ section {
     color: #fff;
     font-size: 25px;
     margin-right: 30px;
+}
+
+.text-position-for-iframe{
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px){
+    .text-position-for-iframe{
+        float: left;
+        cursor: pointer;
+    }
 }
 
 /* header {

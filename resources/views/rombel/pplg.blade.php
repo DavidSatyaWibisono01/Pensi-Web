@@ -63,11 +63,12 @@
 
     <section class="main" id="main">
       <div class="content">
-      	<h2><span>Pengembangan Perangkat Lunak dan Gim</span></h2>
+        <h2><span>Pengembangan Perangkat Lunak dan Gim</span></h2>
         <div class="animated-text">
-          <h3>Web Designer</h3>
+          <h3>Game Developer</h3>
           <h3>Web Developer</h3>
-          <h3>Motion Graphic Designer</h3>
+          <h3>Backend Developer</h3>
+          <h3>Frontend Developer</h3>
         </div>
         <div class="media-icons">
           <a href="https://www.instagram.com/rplwikrama/"><i class="fab fa-instagram"></i></a>
@@ -80,9 +81,9 @@
         <h2 class="section-title" id="virtual-tour">PPLG</h2>
       </div>
       <div class="content">
-      	<div class="img-box">
-      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/1854e2d319aa4e1184908277070a1ea4?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe><br><br>
-      	</div>
+        <div class="img-box">
+          <iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/1854e2d319aa4e1184908277070a1ea4?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe><br><br>
+        </div>
           <h2 class="content-title">Pengembangan Perangkat Lunak dan Gim</h2>
           <p class="paragraph-text">Kompetensi keahlian Pengembangan Perangkat Lunak dan Gim atau PPLG adalah perubahan nama dari Rekayasa Perangkat Lunak atau RPL. Jurusan PPLG di SMK Wikrama dibuka pada tahun 2003, dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.<br>Kompetensi keahlian PPLG SMK Wikrama sudah memiliki sertifikasi internasional seperti TOEIC Test (Test of English International Communication), Microsoft Technology Associate (Office, HTML 5, Database Fundamental).<br>Kompetensi Keahlian PPLG Wikrama memiliki 3 Laboratorium untuk menunjang praktik siswa yaitu Laboratorium Komputer, Software House, dan Ruang Teaching Factory.<br>Model Belajar yang diterapkan di PPLG SMK Wikrama adalah model Pembelajaran Teaching Factory.</p>
         </div>
@@ -96,7 +97,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset('assets/images/jurusan/pplg/img1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1AQneMERE1OoJL3TjyJgMiFiVWncqDafO">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -113,32 +114,33 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pplg/work1.jpg') !!} " alt="">
+            <!-- <img src="{!! asset('assets/images/jurusan/pplg/work1.jpg') !!} " alt=""> -->
+            <img src="https://drive.google.com/uc?id=1dDzMUktbgZP4sjZD3iSPwzO_SaN4q7UM">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pplg/work2.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1RDV-f9HFhk9hook21ml_KyvOwmKVxyHi">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pplg/work3.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1pxaGnTQktcmRNZOg7f5N3jSY7dPLtRfZ">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pplg/work4.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1_N_DAp4nNqWqBYfYY0xYGLBVbpOQE3yP">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pplg/work5.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=15gun7zf1cZd7zHgOwdzLZio9VeICD647">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/pplg/work6.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1bkSwUESH8TxJkwtaO1zr_PdFE4YOMFNP">
           </div>
         </div>
       </div>

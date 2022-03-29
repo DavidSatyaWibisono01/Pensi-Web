@@ -96,7 +96,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset('assets/images/jurusan/tjkt/img1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1lJdYlYhWENOymU38GgVR9wl24IOkM_sC">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -113,32 +113,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/tjkt/work1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=14twcm1viR0VRIc79UFTvnmVR-l_XVutw">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/tjkt/work2.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1qQ6ur4ENCxD2Z9YUPyabkMc9oXsMHrUE">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/tjkt/work3.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1lrRpotiKLlXEkuL8NAC3y017TKyVhmq3">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/tjkt/work4.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1stTX0TBDPke9Z-hr9Y7M-XOGSkTtcxuY">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/tjkt/work5.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1VjK8QJDX5oonqtJBvjTKE4xs2kYYaZ2K">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/tjkt/work6.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1s9aa5AXncII5jH2_pX3Buk8wzRw3Lm0U">
           </div>
         </div>
       </div>

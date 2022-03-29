@@ -82,13 +82,31 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<iframe src="https://momento360.com/e/u/b0b5c78d975f43eb809e72320838a471?utm_campaign=embed&utm_source=other&heading=97.4&pitch=-2.9&field-of-view=75&size=medium" width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe><br><br>
+      		<iframe src="https://momento360.com/e/u/b0b5c78d975f43eb809e72320838a471?utm_campaign=embed&utm_source=other&heading=97.4&pitch=-2.9&field-of-view=75&size=medium" width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl">klik disini untuk info detail view 360</span><br><br>
       	</div>
           <h2 class="content-title">Desain Komunikasi Visual</h2>
-          <p class="paragraph-text">Kompetensi keahlian DKV SMK Wikrama Bogor dirikan pada tahun 2011 dan sudah mendapat akreditasi A. dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.<br>Keunggulan jurusan DKV: Lulusan dapat memiliki kesempatan kerja yang luas dibidang periklanan, production house, radio & televisi, studio foto, percetakan grafis, corporate brand identity, penerbit majalan/Koran, dll.<br>Sertifikasi: LSP (Lembaga Sertifikasi Profesi), BNSP (Badan Nasional Sertifikasi Profesi), TOEIC (Test of English for International Communication), Adobe.<br></p>
+          <p class="paragraph-text">Kompetensi keahlian DKV SMK Wikrama Bogor dirikan pada tahun 2011 dan sudah mendapat akreditasi A. dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.<br><br>Keunggulan jurusan DKV: Lulusan dapat memiliki kesempatan kerja yang luas dibidang periklanan, production house, radio & televisi, studio foto, percetakan grafis, corporate brand identity, penerbit majalan/Koran, dll.<br><br>Sertifikasi: LSP (Lembaga Sertifikasi Profesi), BNSP (Badan Nasional Sertifikasi Profesi), TOEIC (Test of English for International Communication), Adobe.<br></p>
         </div>
       </div>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModall" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h5 class="mt-3"><b>Pengertian View 360</b></h5>
+        <p>View 360 adalah sebuah fitur yang dimana kita dapat melihat sebuah objek dengan pemandangan full yang dapat kita gerakkan sesuai arah yang kita inginkan</p>
+        <br>
+        <h5><b>Cara menggunakan View 360</b></h5>
+          <ol class="ml-3">
+            <li>Sentuh Objek pada gambar yang akan digerakkan, gambar bisa digerakkan ke seluruh arah sesuai keinginan kita</li>
+            <li>klik icon 'perbesar layar' untuk melihat ruangan jurusan secara fullscreen</li>
+          </ol>
+      </div>
+
+    </div>
 
     <section class="skills">
       <div class="title reveal">
@@ -97,7 +115,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset('assets/images/jurusan/dkv/img.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1sg94p03CrMKx0890YjnFh_Pi7lnngpi-">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -114,32 +132,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/dkv/work1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1zNZUEumpWAl-QVknCPeRiXD0f9o_OYh0">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/dkv/work2.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1jNW3L8AS4atK6p7weeLKgWOv2_TBt4nx">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/dkv/work3.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1E8CLyG9_awSxhKx2gvRy5tgLHk8MSt5B">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/dkv/work4.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1mbfveyGqVE591ddTk_aQDeWuaKEBiPVa">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/dkv/work5.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1v49M4vjfrRaBEdq0Pbdl91Tm2bsYjNpD">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/dkv/work6.jpg') !!}" alt="">
+            <img src="https://drive.google.com/uc?id=1Dif4NYCMosnB_rv8wM-oFU7Vtwk_BTj8">
           </div>
         </div>
       </div>
@@ -154,6 +172,34 @@
       </div>
   </div>
 
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById("myModall");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtnMdl");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
     <script src="{!! asset('assets/js/script-jurusan.js') !!}" charset="utf-8"></script>
     <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/bootstrap/bootstrap.min.js') !!} "></script>

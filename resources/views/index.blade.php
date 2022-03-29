@@ -22,6 +22,7 @@
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="mdi mdi-menu navbar-toggler-icon"></span>
             </button>
+            <!-- <a class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-menu navbar-toggler-icon"></span></a> -->
           </div>
           <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
             <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
@@ -32,6 +33,7 @@
                 <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
                 </button>
+                <!-- <a class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-close navbar-toggler-icon pl-5"></span></a> -->
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
@@ -55,9 +57,11 @@
     </header>
     <div class="banner-landing">
       <div class="container">
-        <h1 class="font-weight-semibold">SHINE IN MIDDLE<br />OF THE PANDEMIC</h1>
-        <h6 class="font-weight-normal text-muted pb-5">Proudly Present Virtual Annual Festival by : OSIS MPR Wikrama Bogor</h6>
-        <img src=" {!! asset('assets/images/landing-page/roket-landing.png') !!}" class="img-fluid" />
+        <h1 class="font-weight-semibold">SHINE IN THE MIDDLE<br />OF PANDEMIC</h1>
+        <h6 class="font-weight-normal text-muted">Proudly Present Virtual Annual Festival by : OSIS MPR Wikrama Bogor</h6>
+        <div class="img-fluid">
+        <img src="https://drive.google.com/uc?id=1MrIC8YkySEam6aOUMGq4g_PvqSfQwXZB">          
+        </div>
       </div>
     </div>
     <div class="content-wrapper">
@@ -77,7 +81,7 @@
                   <div class="text-center">
                     <h6 class="card-title mb-3">Ruang Jurusan</h6>
                     <div class="content-divider m-auto"></div>
-                    <img src=" {!! asset('assets/images/landing-page/meteorite.png') !!}" width="89" height="89" alt="" class="mt-3" />
+                    <img src="https://drive.google.com/uc?id=1eVOZMjzjb6oNoKWflshT3EneMBFAatal" width="89" height="89" alt="" class="mt-3" />
                     <p class="m-0 py-3 text-muted">Melihat ruang jurusan dengan view 360</p>
                     <!-- Trigger/Open The Modal -->
                     <button class="btn button-modal" style="background-color: #bbbbf2; border-radius: 5px" id="myBtn">Kunjungi</button>
@@ -89,7 +93,7 @@
                   <div class="text-center">
                     <h6 class="card-title mb-3">CBT</h6>
                     <div class="content-divider m-auto"></div>
-                    <img src="{!! asset('assets/images/landing-page/astronaut.png') !!}" width="89" height="89" alt="" class="mt-3" />
+                    <img src="https://drive.google.com/uc?id=1cDp1qcKs6SXTFtuxCRRVi7ee9r3PLipP" width="89" height="89" alt="" class="mt-3" />
                     <p class="m-0 py-3 text-muted">
                       Pelatihan <br />
                       Competence Based Training
@@ -105,7 +109,7 @@
                   <div class="text-center">
                     <h6 class="card-title mb-3">Virtual Tour</h6>
                     <div class="content-divider m-auto"></div>
-                    <img src="{!! asset('assets/images/landing-page/black-hole.png') !!}" width="89" height="89" alt="" class="mt-3" />
+                    <img src="https://drive.google.com/uc?id=1Hc-R45RHgF4AJWuRPCeSjIy3yluxc7Ck" width="89" height="89" alt="" class="mt-3" />
                     <p class="m-0 py-3 text-muted">Mengelilingi lingkungan sekolah dengan view 360</p>
                     <div class="btn button-modal" style="background-color: #bbbbf2; padding: 12px 25px; border-radius: 5px">
                       <a href="https://virtualtoursmkwikrama.vercel.app/" target="_blank">Kunjungi</a>
@@ -125,13 +129,13 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close">&times;</span>
-            <h4 class="mt-3"><b>Ruang Jurusan</b></h4>
-            <img class="img-modal mt-2" src="{!! asset('assets/images/logo/logo-wk.png') !!}">
+            <h4 class="text-center mt-2 mb-3"><b>Ruang Jurusan</b></h4>
+            <img class="img-modal mt-2 mb-2" src="{!! asset('assets/images/logo/logo-wk.png') !!}">
 
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Pengembangan Perangkat Lunak dan Gim</h4> 
+                  <h5>Pengembangan Perangkat Lunak dan Gim</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/pengembangan-perangkat-lunak-dan-gim">Kunjungi</a>
@@ -142,7 +146,7 @@
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Desain Komunikasi Visual</h4> 
+                  <h5>Desain Komunikasi Visual</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/desain-komunikasi-visual">Kunjungi</a>
@@ -153,7 +157,7 @@
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Teknik Jaringan Komputer dan Telekomunikasi</h4> 
+                  <h5>Teknik Jaringan Komputer dan Telekomunikasi</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/teknik-jaringan-komputer-dan-telekomunikasi">Kunjungi</a>
@@ -164,7 +168,7 @@
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Manajemen Perkantoran dan Layanan Bisnis</h4> 
+                  <h5>Manajemen Perkantoran dan Layanan Bisnis</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/manajemen-perkantoran-dan-layanan-bisnis">Kunjungi</a>
@@ -175,7 +179,7 @@
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Pemasaran</h4> 
+                  <h5>Pemasaran</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/pemasaran">Kunjungi</a>
@@ -186,7 +190,7 @@
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Hotel</h4> 
+                  <h5>Hotel</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/hotel">Kunjungi</a>
@@ -197,7 +201,7 @@
             <!-- Pembatas Card -->
               <div class="card-in-modal">
                 <div class="container-in-modal">
-                  <h4>Kuliner</h4> 
+                  <h5>Kuliner</h5> 
                   <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua.</p> 
                   <a class="button-modal button-modal-card" target="_blank" href="/kuliner">Kunjungi</a>
@@ -209,7 +213,7 @@
         </div>
         <!-- End Modal -->
 
-        <!-- 3 Modal Utama Pensi -->
+        <!-- Virtual Tour Pensi -->
         <section class="features-overview" id="features-section">
           <div class="content-header">
             <h2>Virtual Annual Festival</h2>
@@ -224,7 +228,53 @@
             </h6>
           </div>
         </section>
-        <!-- End 3 Modal Utama Pensi -->
+        <!-- End Virtual Tour Pensi -->
+
+        <!-- Testimoni Guru -->
+        <section class="customer-feedback">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2>What our customers have to say</h2>
+            <h6 class="section-subtitle text-muted m-0">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+          </div>
+          <div class="owl-carousell owl-theme grid-margin">
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Tony Martinez</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="card customer-cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                    <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                    <div class="content-divider m-auto"></div>
+                    <h6 class="card-title pt-3">Cody Lambert</h6>
+                    <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </section>
+        <!-- End Testimoni Guru -->
       </div>
     </div>
 
@@ -239,7 +289,7 @@
               <h5 class="color-footer mt-4">Supported by :</h5>
               <a href="https://kejar.id" target="_blank"><img src="{!! asset('assets/images/landing-page/logo-kejarid-footer.png') !!}" width="50%" /></a>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <div class="col-12 col-md-6 col-lg-3 grid-margins">
               <h5 class="color-footer pb-2">Masukkan Saran & Kritikmu!</h5>
               <p class="color-footer">Saran dan kritikmu akan sangat berguna bagi kami</p>
               <form>
@@ -249,7 +299,7 @@
                 <button class="btn btn-dark">Kirim</button>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <div class="col-12 col-md-6 col-lg-3 grid-margins">
               <h5 class="color-footer pb-2">Follow juga sosial media kami</h5>
               <div class="d-flex justify-content-center justify-content-md-start">
                 <a href="#"><span class="mdi mdi-facebook"></span></a>
@@ -298,5 +348,6 @@
     <script src=" {!! asset('assets/vendors/owl-carousel/js/owl.carousel.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/aos/js/aos.js') !!} "></script>
     <script src=" {!! asset('assets/js/landingpage.js') !!} "></script>
+    <script src=" {!! asset('assets/js/testimoni.js') !!} "></script>
   </body>
 </html>

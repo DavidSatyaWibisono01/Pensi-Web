@@ -62,12 +62,12 @@
     </header>
 
     <section class="main" id="main">
-      <div class="content">
+      <div class="content judul-landing">
       	<h2><span>Hotel</span></h2>
         <div class="animated-text">
-          <h3>Houskeeping</h3>
+          <h3>Housekeeping</h3>
           <h3>Public Area</h3>
-          <h3>Loundry</h3>
+          <h3>Laundry</h3>
         </div>
       </div>
     </section>
@@ -78,7 +78,7 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<img class="img-jurusan" src="{!! asset('assets/images/jurusan/hotel/hotel.jpeg') !!}" alt=""><br><br>
+      		<img class="img-jurusan" src="https://drive.google.com/uc?id=1DNNHuN-1Ovc3XmSw9AMDgCGBiF2E4Isn"><br><br>
       	</div>
           <h2 class="content-title">Hotel</h2>
           <p class="paragraph-text">Bidang Keahlian Pariwisata merupakan salah satu fokus program Revitalisasi SMK dalam rangka meningkatkan daya saing SDM Indonesia. Seiring dengan nawacita presiden Republik Indonesia bapak Jokowidodo bidang Pariwisata, Seni, dan Industri Kreatif mulai dikembangkan untuk menciptakan sumber daya unggul dan kreatif. Merespon hal tersebut SMK WIKRAMA BOGOR membuka jurusan PERHOTELAN di tahun 2017. Hal ini bertujuan salah satunya untuk memenuhi SDM dan menciptakan tenaga kerja yang terampil di bidang Perhotelan. Kompetensi Keahlian Hotel SMK Wikrama Bogor menjadi jurusan ke-7 di SMK Wikrama Bogor, dengan nilai akreditasi B (baik)<br></p>
@@ -93,7 +93,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="{!! asset('assets/images/jurusan/hotel/img1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1bE7IkxgWoi8BC_I5lZwaLQM7Ficyxi6d">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -110,32 +110,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/hotel/work1.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1rGkBmIGnfgmuRcFAQzZGMqyn04WOV4B_">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/hotel/work2.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1D22ql9ydPwUIMMqBH7nb4LUwSHb6z6v_">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/hotel/work3.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1WWn2m2kWM31GC4G7q2hlrcXuwX0UiIsz">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/hotel/work4.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1xVOe6S3FflHOTHh5u2zbmnMl8rbljEVv">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/hotel/work5.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=19nqd2Z1-opBjFD1LAy4nbzeeys_R0lcu">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="{!! asset('assets/images/jurusan/hotel/work6.jpg') !!} " alt="">
+            <img src="https://drive.google.com/uc?id=1WGaY8fYm1H-gXyJqTSEnYbz3AnXmZHh_">
           </div>
         </div>
       </div>
