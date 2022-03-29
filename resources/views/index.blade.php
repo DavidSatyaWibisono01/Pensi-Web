@@ -218,7 +218,7 @@
           <div class="content-header">
             <h2>Virtual Annual Festival</h2>
             <div class="responsive-container">
-              <iframe allowfullscreen="" class="responsive-iframe" frameborder="0" height="450" src="https://www.youtube.com/embed/Jbn5SQTL5E0" style="border: 0" width="800"></iframe>
+                <img id="myImg" src="https://drive.google.com/uc?id=1MrIC8YkySEam6aOUMGq4g_PvqSfQwXZB">
               <!-- <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Jbn5SQTL5E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             </div>
             <h6 class="section-subtitle text-muted">
@@ -229,6 +229,13 @@
           </div>
         </section>
         <!-- End Virtual Tour Pensi -->
+
+        <!-- The Modal -->
+        {{-- <div id="myModals" class="modal">
+            <span class="close">&times;</span>
+            <iframe allowfullscreen="" class="modal-contents" frameborder="0" height="450" src="https://www.youtube.com/embed/Jbn5SQTL5E0" style="border: 0" width="800"></iframe>
+            <div id="caption"></div>
+        </div> --}}
 
         <!-- Testimoni Guru -->
         {{-- <section class="customer-feedback">
@@ -343,6 +350,28 @@
         }
       }
     </script>
+    {{-- <script>
+        // Get the modal
+        var modal = document.getElementById("myModals");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        </script> --}}
     <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/bootstrap/bootstrap.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/owl-carousel/js/owl.carousel.min.js') !!} "></script>
