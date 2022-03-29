@@ -493,6 +493,13 @@ mark {
     height: auto;
     margin: auto;
 }
+.img-fluid-talent img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
 @media screen and (max-width: 720px) {
     .img-fluid img{
         width: 230px;
@@ -8801,6 +8808,7 @@ body.sidebar-open:before {
     background-color: #f7f8fa;
     text-align: center;
     padding: 10px 0px;
+    height: 600px;
 }
 .banner-footer {
     background-color: #334257;
@@ -8977,6 +8985,8 @@ footer a:hover {
 .customer-designation,
 .section-subtitle {
     font-weight: 400;
+/*    width: 70%;
+    margin: auto;*/
 }
 .header-small .navbar {
     background: #fff;
@@ -9020,13 +9030,7 @@ footer a:hover {
     transform: scale(0.9);
 }
 
-
-
-
-
-
-
-
+/*Vid Pensi*/
 
 #myImg {
   border-radius: 5px;
@@ -9034,14 +9038,14 @@ footer a:hover {
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImgsk:hover {opacity: 0.7;}
 
 /* The Modal (background) */
-.modal {
+.modalvidpensi {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 160px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -9060,7 +9064,7 @@ footer a:hover {
 }
 
 /* Caption of Modal Image */
-#caption {
+#captions {
   margin: auto;
   display: block;
   width: 80%;
@@ -9090,7 +9094,7 @@ footer a:hover {
 }
 
 /* The Close Button */
-.close {
+.closed {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -9100,8 +9104,8 @@ footer a:hover {
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.closed:hover,
+.closed:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -9114,6 +9118,18 @@ footer a:hover {
     height: 233px;
     margin-top: 133px;
   }
+  .modalvidpensi{
+    padding-top: 100px;
+  }
+  .img-fluid-talent img{
+    width: 100%;
+  }
+
+  .section-subtitle-vid-pensi{
+    font-weight: 400;
+    width: 100%;
+    margin: auto;
+   }
 }
 @media screen and (min-width: 450px) and (max-width: 660px) {
     .modal-contents {
@@ -9121,6 +9137,17 @@ footer a:hover {
         height: 350px;
         margin-top: 133px;
       }
+      .modalvidpensi{
+        padding-top: 60px;
+      }
+      .img-fluid-talent img{
+        width: 90%;
+      }
+        .section-subtitle-vid-pensi{
+            font-weight: 400;
+            width: 100%;
+            margin: auto;
+           }      
 }
 @media screen and (min-width: 650px) and (max-width: 850px) {
     .modal-contents {
@@ -9128,13 +9155,38 @@ footer a:hover {
         height: 350px;
         margin-top: 133px;
       }
+      .modalvidpensi{
+        padding-top: 30px;
+      }
+      .img-fluid-talent img{
+        width: 95%;
+      }
+              .section-subtitle-vid-pensi{
+            font-weight: 400;
+            width: 100%;
+            margin: auto;
+           }   
 }
-
-
-
-
-
-
+@media screen and (min-width:  850px) and (max-width: 991px) {
+    .img-fluid-talent img{
+        width: 90%;
+    }
+        .section-subtitle-vid-pensi{
+            font-weight: 400;
+            width: 100%;
+            margin: auto;
+           }       
+}
+@media screen and (min-width:  991px) and (max-width: 1400px) {
+    .img-fluid-talent img{
+        width: 55%;
+    }
+        .section-subtitle-vid-pensi{
+            font-weight: 400;
+            width: 80%;
+            margin: auto;
+           }   
+}
 
 .owl-carousel .owl-carousell .owl-item {
     padding: 16px 0;
