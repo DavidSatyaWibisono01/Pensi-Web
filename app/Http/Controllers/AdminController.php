@@ -39,18 +39,16 @@ class AdminController extends Controller
         $message = $request->session()->get('message',null);
         return redirect('/login')->with('message', $message);
     }
-    public function logout(Request $request)
-{
-    Auth::logout();
 
-    $request->session()->invalidate();
+    public function logout(Request $request){
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect('/login');
+    }
 
-    $request->session()->regenerateToken();
-
-    return redirect('/');
-}
  	public function delete($id){
-      Pengunjung::destroy($id);
-        return redirect('/admin')->with('succses', 'Suplayer Berhasil Dihapus');
+        Pengunjung::destroy($id);
+        return redirect('/pengunjung')->with('succses', 'Pengunjung Berhasil Dihapus');
     }
 }
