@@ -4,6 +4,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PengunjungController;
 use App\Http\Controllers\InstansiController;
+use App\Http\Controllers\PesanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -51,4 +52,6 @@ Route::get('/about-us', function () {
 Route::get('/cbt-wikrama', function () {
     return view('cbt');
 });
+
+Route::resource('pesan', PesanController::class);
 

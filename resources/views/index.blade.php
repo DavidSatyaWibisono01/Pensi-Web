@@ -259,12 +259,13 @@
             <div class="col-12 col-md-6 col-lg-3 grid-margins">
               <h5 class="color-footer pb-2">Masukkan Saran & Kritikmu!</h5>
               <p class="color-footer">Saran dan kritikmu akan sangat berguna bagi kami</p>
-              <form>
-                <input type="text" class="form-control" id="" placeholder="Masukkan Saran dan Kritik" />
+              <form action="{{url('pesan')}}" method="post">
+                @csrf
+                <input type="text" name="isi" class="form-control" id="" placeholder="Masukkan Saran dan Kritik" minlength="5" maxlength="50">
+                <div class="pt-3">
+                  <button class="btn btn-dark" type="submit">Kirim</button>
+                </div>
               </form>
-              <div class="pt-3">
-                <button class="btn btn-dark">Kirim</button>
-              </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 grid-margins">
               <h5 class="color-footer pb-2">Follow juga sosial media kami</h5>

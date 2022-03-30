@@ -30,11 +30,7 @@
               <img src="{{ asset('assets/images/faces/face28.jpg')}}" alt="profile"/>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a class="dropdown-item">
-                <i class="ti-settings text-primary"></i>
-                Settings
-              </a>
-              <a class="dropdown-item">
+              <a class="dropdown-item" href="{{url('logout')}}">
                 <i class="ti-power-off text-primary"></i>
                 Logout
               </a>
@@ -87,6 +83,12 @@
             <a class="nav-link" href="{{url('instansi')}}">
               <i class="mdi mdi-factory menu-icon"></i>
               <span class="menu-title">Data Sekolah</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url('pesan')}}">
+              <i class="mdi mdi-message menu-icon"></i>
+              <span class="menu-title">Pesan</span>
             </a>
           </li>
         </ul>
