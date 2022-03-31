@@ -81,7 +81,7 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/df4d751d7c2d4bc39c92d62fe23748fb?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl">klik disini untuk info detail view 360</span><br><br>
+      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/df4d751d7c2d4bc39c92d62fe23748fb?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl"><span class="border-bottom-text">klik disini</span> untuk info detail view 360</span><br><br>
       	</div>
           <h2 class="content-title">Pemasaran</h2>
           <p class="paragraph-text">Kompetensi keahlian Pemasaran SMK Wikrama Bogor didirikan pada tahun 2014, dan dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.<br><br> Sertifikasi: TOEIC, (Test of English for International Communication) Microsoft Office Specialist (MOS – Certiport), Marketing Online</p>

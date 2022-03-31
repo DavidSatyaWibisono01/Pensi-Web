@@ -9044,7 +9044,7 @@ footer a:hover {
 .modalvidpensi {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 2; /* Sit on top */
   padding-top: 160px; /* Location of the box */
   left: 0;
   top: 0;
@@ -9112,6 +9112,11 @@ footer a:hover {
 }
 
 /* 100% Image Width on Smaller Screens */
+
+.section-subtitle-vid-pensi {
+    text-align: justify;
+}
+
 @media only screen and (max-width: 450px){
   .modal-contents {
     width: 100%;
@@ -9130,6 +9135,10 @@ footer a:hover {
     width: 100%;
     margin: auto;
    }
+   .closed{
+    top: 85px;
+    right: 25px;
+   }
 }
 @media screen and (min-width: 450px) and (max-width: 660px) {
     .modal-contents {
@@ -9143,11 +9152,15 @@ footer a:hover {
       .img-fluid-talent img{
         width: 90%;
       }
-        .section-subtitle-vid-pensi{
-            font-weight: 400;
-            width: 100%;
-            margin: auto;
-           }      
+    .section-subtitle-vid-pensi{
+        font-weight: 400;
+        width: 100%;
+        margin: auto;
+       }
+       .closed{
+        top: 95px;
+        right: 40px;
+       }      
 }
 @media screen and (min-width: 650px) and (max-width: 850px) {
     .modal-contents {
@@ -9161,11 +9174,15 @@ footer a:hover {
       .img-fluid-talent img{
         width: 95%;
       }
-              .section-subtitle-vid-pensi{
-            font-weight: 400;
-            width: 100%;
-            margin: auto;
-           }   
+      .section-subtitle-vid-pensi{
+        font-weight: 400;
+        width: 100%;
+        margin: auto;
+       }   
+       .closed{
+        top: 95px;
+        right: 40px;
+       } 
 }
 @media screen and (min-width:  850px) and (max-width: 991px) {
     .img-fluid-talent img{
@@ -9175,17 +9192,21 @@ footer a:hover {
             font-weight: 400;
             width: 100%;
             margin: auto;
-           }       
+           }
+       .closed{
+        top: 95px;
+        right: 40px;
+       } 
 }
 @media screen and (min-width:  991px) and (max-width: 1400px) {
     .img-fluid-talent img{
         width: 55%;
     }
-        .section-subtitle-vid-pensi{
-            font-weight: 400;
-            width: 80%;
-            margin: auto;
-           }   
+    .section-subtitle-vid-pensi{
+        font-weight: 400;
+        width: 80%;
+        margin: auto;
+       }   
 }
 
 .owl-carousel .owl-carousell .owl-item {

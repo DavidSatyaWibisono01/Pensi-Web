@@ -67,8 +67,7 @@
         <div class="animated-text">
           <h3>Game Developer</h3>
           <h3>Web Developer</h3>
-          <h3>Backend Developer</h3>
-          <h3>Frontend Developer</h3>
+          <h3>Front-End Developer</h3>
         </div>
         <div class="media-icons">
           <a href="https://www.instagram.com/rplwikrama/"><i class="fab fa-instagram"></i></a>
@@ -82,7 +81,7 @@
       </div>
       <div class="content">
         <div class="img-box">
-          <iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/1854e2d319aa4e1184908277070a1ea4?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl">klik disini untuk info detail view 360</span><br><br>
+          <iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/1854e2d319aa4e1184908277070a1ea4?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl"><span class="border-bottom-text">klik disini</span> untuk info detail view 360</span><br><br>
         </div>
           <h2 class="content-title">Pengembangan Perangkat Lunak dan Gim</h2>
           <p class="paragraph-text">Kompetensi keahlian Pengembangan Perangkat Lunak dan Gim atau PPLG adalah perubahan nama dari Rekayasa Perangkat Lunak atau RPL. Jurusan PPLG di SMK Wikrama dibuka pada tahun 2003, dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.<br>Kompetensi keahlian PPLG SMK Wikrama sudah memiliki sertifikasi internasional seperti TOEIC Test (Test of English International Communication), Microsoft Technology Associate (Office, HTML 5, Database Fundamental).<br>Kompetensi Keahlian PPLG Wikrama memiliki 3 Laboratorium untuk menunjang praktik siswa yaitu Laboratorium Komputer, Software House, dan Ruang Teaching Factory.<br>Model Belajar yang diterapkan di PPLG SMK Wikrama adalah model Pembelajaran Teaching Factory.</p>

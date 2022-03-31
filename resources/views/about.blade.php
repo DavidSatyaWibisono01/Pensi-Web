@@ -347,7 +347,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-1">
                 <div class="u-align-center u-container-style u-group u-group-1">
                   <div class="u-container-layout u-container-layout-2">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-1" src="{!! asset('assets/img/images/Group41.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-1" src="https://drive.google.com/uc?id=17iz6sGPTUhor4Ab5A95SCVvzxonpFnqL" alt="" data-image-width="370" data-image-height="403">
                     <h5 class="u-custom-font u-text u-text-white u-text-2">M Rasyad Alfiansyah </h5>
                     <h6 class="u-custom-font u-text u-text-white u-text-3">UI Designer</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-1">
@@ -369,7 +369,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-3">
                 <div class="u-align-center u-container-style u-group u-group-2">
                   <div class="u-container-layout u-container-layout-4">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-2" src="{!! asset('assets/img/images/Group37.png') !!}" alt="" data-image-width="370" data-image-height="404">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-2" src="https://drive.google.com/uc?id=1Dx5T901NE34pCO6iA2O8TNYouKrTVHvw" alt="" data-image-width="370" data-image-height="404">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-4">Jasmina Salma</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-5">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-2">
@@ -391,7 +391,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-5">
                 <div class="u-align-center u-container-style u-group u-group-3">
                   <div class="u-container-layout u-container-layout-6">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-3" src="{!! asset('assets/img/images/Group361.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-3" src="https://drive.google.com/uc?id=1BvdpeGbz-CKOZOG-8wQ9xMlsSZz25bkI" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-6">Akbar Aulia R</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-7">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-3">
@@ -413,7 +413,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-7">
                 <div class="u-align-center u-container-style u-group u-group-4">
                   <div class="u-container-layout u-container-layout-8">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-4" src="{!! asset('assets/img/images/Group39.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-4" src="https://drive.google.com/uc?id=1F8aiTBlaswa4NtFKfOxF0HgnMzk5_khs" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-8">Bunga Syahva M</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-9">Multimedia</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-4">
@@ -435,7 +435,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-9">
                 <div class="u-align-center u-container-style u-group u-group-5">
                   <div class="u-container-layout u-container-layout-10">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="{!! asset('assets/img/images/Group38.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="https://drive.google.com/uc?id=1mq2YCjoHefbnLAYzUXhqenMNX72nkUPH" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">Anna Thereshia A</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Multimedia</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
@@ -459,7 +459,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-9">
                 <div class="u-align-center u-container-style u-group u-group-5">
                   <div class="u-container-layout u-container-layout-10">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="{!! asset('assets/img/images/Group40.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="https://drive.google.com/uc?id=13-fVcvvTQMopWg7jmYF21J2CQDMdezO4" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">Qeyla Raiq Alva</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Penanggung Jawab 360</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
@@ -484,7 +484,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-9">
                 <div class="u-align-center u-container-style u-group u-group-5">
                   <div class="u-container-layout u-container-layout-10">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="{!! asset('assets/images/manusa/manusa1.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="https://drive.google.com/uc?id=1csO0GLMPRqJI0WBES57uYW_P32HcbqDZ" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">David Satya W</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Frontend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
@@ -509,7 +509,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-9">
                 <div class="u-align-center u-container-style u-group u-group-5">
                   <div class="u-container-layout u-container-layout-10">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="{!! asset('assets/images/manusa/manusa2.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-5" src="https://drive.google.com/uc?id=1dC0QTqG5FE_jdyCvfb0Spnnhy9I3SsgH" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-10">M Abdurrasyid</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-11">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-5">
@@ -533,7 +533,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-11">
                 <div class="u-align-center u-container-style u-group u-group-6">
                   <div class="u-container-layout u-container-layout-12">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-6" src="{!! asset('assets/images/manusa/manusa3.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-6" src="https://drive.google.com/uc?id=1IWThmubo5XoEtx2TBEJmgo4hKPA4CXR3" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-12">Alfi Ilham</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-13">Backend Dev</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-6">
@@ -556,7 +556,7 @@
               <div class="u-container-layout u-similar-container u-valign-top-md u-container-layout-11">
                 <div class="u-align-center u-container-style u-group u-group-6">
                   <div class="u-container-layout u-container-layout-12">
-                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-6" src="{!! asset('assets/images/manusa/willy-about-us.png') !!}" alt="" data-image-width="370" data-image-height="403">
+                    <img class="u-expanded u-image u-image-contain u-image-round u-radius-5 u-image-6" src="https://drive.google.com/uc?id=1jxgx71ddSPyRhpeBHBIsR4mhOKL0Uuct" alt="" data-image-width="370" data-image-height="403">
                     <h6 class="u-custom-font u-text u-text-default-xl u-text-white u-text-12">Williams Tyndall L</h6>
                     <h6 class="u-custom-font u-text u-text-white u-text-13">Visual Creative Team</h6>
                     <div class="u-social-icons u-spacing-10 u-social-icons-6">
@@ -582,18 +582,18 @@
     <section class="u-clearfix u-white u-section-3" id="committee">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-custom-font u-text u-text-custom-color-8 u-text-default u-text-1">and our committee</h1>
-        <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" alt="" data-image-width="358" data-image-height="356">
+        <img class="u-image u-image-default u-preserve-proportions u-image-1" src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" alt="" data-image-width="358" data-image-height="356">
         <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-custom-color-6 u-text-2" style="text-align: center; font-family: 'Poppins'; color: #000;">Moh Rizal S.Pd </h2>
         <h3 class="u-align-center u-custom-font u-text u-text-3" >Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
         </h3>
-        <img class="u-image u-image-default u-preserve-proportions u-image-2" src="{!! asset('assets/img/images/HizkiaAryaDianKristanda_Kordinator_Personilbandosis1.png') !!}" alt="" data-image-width="268" data-image-height="268">
-        <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{!! asset('assets/images/manusa/ceka.png') !!}" alt="" data-image-width="280" data-image-height="281">
+        <img class="u-image u-image-default u-preserve-proportions u-image-2" src="https://drive.google.com/uc?id=1ViCxbt5c6hlA-nqOzO1wRmlQZRuNsBJz" alt="" data-image-width="268" data-image-height="268">
+        <img class="u-image u-image-default u-preserve-proportions u-image-3" src="https://drive.google.com/uc?id=19-T8PC7EzepJmJQqjLHvIj349MJTnda5" alt="" data-image-width="280" data-image-height="281">
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4" style="font-family: 'Poppins'; color: #000;">Hizkia Arya D.K</h2>
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-5" style="font-family: 'Poppins'; color: #000;">Manda Christoffel K</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-6">Koordinator Pensi Virtual</h3>
         <h3 class="u-align-center u-custom-font u-text u-text-7">Ketua Pelaksana Pensi Virtual</h3>
-        <img class="u-image u-image-default u-preserve-proportions u-image-4" src="{!! asset('assets/img/images/IMG_20220212_195406.png') !!}" alt="" data-image-width="300" data-image-height="300">
-        <img class="u-image u-image-default u-preserve-proportions u-image-5" src="{!! asset('assets/img/images/c0940d7d-01c6-47bb-9ca8-bdd5b0db0d7a.png') !!}" alt="" data-image-width="300" data-image-height="300">
+        <img class="u-image u-image-default u-preserve-proportions u-image-4" src="https://drive.google.com/uc?id=1_hCFSnc2aqQ0A06NRRSSSMRfL3DzVd0D" alt="" data-image-width="300" data-image-height="300">
+        <img class="u-image u-image-default u-preserve-proportions u-image-5" src="https://drive.google.com/uc?id=1Uwu3W8OqFR6nGMlIjQBiVT6QULNyW9be" alt="" data-image-width="300" data-image-height="300">
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-8" style="font-family: 'Poppins'; color: #000;">Jamil Ana Latifah</h2>
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-9" style="font-family: 'Poppins'; color: #000;">Zakiah Andini</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-10">Sekretaris Pensi Virtual</h3>
@@ -620,21 +620,21 @@
             </div>
             <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-5">
-                <img class="u-image u-image-round u-radius-12 u-image-5" src="{!! asset('assets/img/images/509c0864-b9e1-4273-b2cc-6970b692e7f6.jfif') !!}" alt="" data-image-width="750" data-image-height="1334">
+                <img class="u-image u-image-round u-radius-12 u-image-5" src="https://drive.google.com/uc?id=1AB5Y2L6nqGVJHogKkhEdZ3weXOzMcBRM" alt="" data-image-width="750" data-image-height="1334">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-9">Putri Kusuma D</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-10">Multimedia</h5>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-6">
-                <img class="u-image u-image-round u-radius-12 u-image-6" src="{!! asset('assets/img/images/9d230dd3-3f99-42f6-9fc7-6b04828be448.jfif') !!}" alt="" data-image-width="720" data-image-height="903">
+                <img class="u-image u-image-round u-radius-12 u-image-6" src="https://drive.google.com/uc?id=1ZRAKY6rX-HEY2hjuV-4mMB96Ew98yQ5t" alt="" data-image-width="720" data-image-height="903">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-11">Dhiyaa Raysa</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-12">Sie Acara</h5>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-7">
-                <img class="u-image u-image-round u-radius-12 u-image-7" src="{!! asset('assets/img/images/051905b6-c001-4b37-8bdd-2c7d11ffdc83.jfif') !!}" alt="" data-image-width="1600" data-image-height="1600">
+                <img class="u-image u-image-round u-radius-12 u-image-7" src="https://drive.google.com/uc?id=1rB8AiqMKhls14qHcH124CUIkVDCzKGgm" alt="" data-image-width="1600" data-image-height="1600">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-13">Siti Syafna Sajidah</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-14">Sie Acara</h5>
               </div>
@@ -648,14 +648,14 @@
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-9">
-                <img class="u-image u-image-round u-radius-12 u-image-9" src="{!! asset('assets/img/images/Remini20220212151345197.jpg') !!}" alt="" data-image-width="1394" data-image-height="3068">
+                <img class="u-image u-image-round u-radius-12 u-image-9" src="https://drive.google.com/uc?id=1W61cNhgpqhM8o8hoUTKDUkAPkyr6tEdQ" alt="" data-image-width="1394" data-image-height="3068">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-17">Alfath Satrio Trigumi</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-18">PJ Talent</h5>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-10">
-                <img class="u-image u-image-round u-radius-12 u-image-10" src="{!! asset('assets/img/images/d6ada9f5-3d74-44fd-97fa-30f177d48db0.jfif') !!}" alt="" data-image-width="1078" data-image-height="1440">
+                <img class="u-image u-image-round u-radius-12 u-image-10" src="https://drive.google.com/uc?id=1Ano5kJbBUr4tKpnify25VSnqrV4GakjR" alt="" data-image-width="1078" data-image-height="1440">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-19">Afifah Ramdania R</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-20">PJ Talent</h5>
               </div>
@@ -697,7 +697,7 @@
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-16">
-                <img class="u-image u-image-round u-radius-12 u-image-16" src="{!! asset('assets/img/images/20210619101353_IMG_31831.JPG') !!}" alt="" data-image-width="1229" data-image-height="1543">
+                <img class="u-image u-image-round u-radius-12 u-image-16" src="https://drive.google.com/uc?id=1m6yNT5sFix-hvxOtgpSkyQmsvUlUqvuW" alt="" data-image-width="1229" data-image-height="1543">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-31">Lia Aprilia Ningsih</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-32">Design </h5>
               </div>
@@ -711,14 +711,14 @@
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-18">
-                <img class="u-image u-image-round u-radius-12 u-image-18" src="{!! asset('assets/img/images/e8e3e352-cc9f-4c1f-8214-26c9122641b0.jfif') !!}" alt="" data-image-width="960" data-image-height="1280">
+                <img class="u-image u-image-round u-radius-12 u-image-18" src="https://drive.google.com/uc?id=1cc2nD05q1G-i_0-XIgBeqvV0mBIJU75B" alt="" data-image-width="960" data-image-height="1280">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-35">Naswa Nurasilah</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-36">Design </h5>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-19">
-                <img class="u-image u-image-round u-radius-12 u-image-19" src="{!! asset('assets/img/images/c3f84d3e-f591-42e4-a481-67aaac0548eb.jfif') !!}" alt="" data-image-width="719" data-image-height="1280">
+                <img class="u-image u-image-round u-radius-12 u-image-19" src="https://drive.google.com/uc?id=1RqNulsV3YgyvE5d_kb_qj6RZsMA7kwEz" alt="" data-image-width="719" data-image-height="1280">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-37">Dzakiyyah Lainun Z</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-38">Design </h5>
               </div>

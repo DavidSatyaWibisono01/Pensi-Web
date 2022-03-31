@@ -81,7 +81,7 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/891139ca779b4fa29666b5bc5914a7ae?utm_campaign=embed&utm_source=other&heading=-299.5&pitch=0.3&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl">klik disini untuk info detail view 360</span><br><br>
+      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/891139ca779b4fa29666b5bc5914a7ae?utm_campaign=embed&utm_source=other&heading=-299.5&pitch=0.3&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl"><span class="border-bottom-text">klik disini</span> untuk info detail view 360</span><br><br>
       	</div>
           <h2 class="content-title">Teknik Jaringan Komputer dan Telekomunikasi</h2>
           <p class="paragraph-text">Kompetensi keahlian Jaringan Komputer dan Telekomunikasi didirikan pada tahun 2004 dan sudah memiliki akreditasi A<br>Teknik Jaringan Komputer dan Telekomunikasi merupakan ilmu berbasis Teknologi Informasi dan Komunikasi terkait kemampuan algoritma, dan pemrograman komputer, perakitan komputer, perakitan jaringan komputer, dan pengoperasian internet.<br>Sertifikasi: TOEIC (Test of English for International Communication), CNAP (Cisco Networking Academy Program), MCNA (Mikrotik Certified Network Associate)</p>

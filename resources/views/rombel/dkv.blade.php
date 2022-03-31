@@ -82,7 +82,7 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<iframe src="https://momento360.com/e/u/b0b5c78d975f43eb809e72320838a471?utm_campaign=embed&utm_source=other&heading=97.4&pitch=-2.9&field-of-view=75&size=medium" width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl">klik disini untuk info detail view 360</span><br><br>
+      		<iframe src="https://momento360.com/e/u/b0b5c78d975f43eb809e72320838a471?utm_campaign=embed&utm_source=other&heading=97.4&pitch=-2.9&field-of-view=75&size=medium" width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl"><span class="border-bottom-text">klik disini</span> untuk info detail view 360</span><br><br>
       	</div>
           <h2 class="content-title">Desain Komunikasi Visual</h2>
           <p class="paragraph-text">Kompetensi keahlian DKV SMK Wikrama Bogor dirikan pada tahun 2011 dan sudah mendapat akreditasi A. dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A. Keunggulan jurusan DKV: Lulusan dapat memiliki kesempatan kerja yang luas dibidang periklanan, production house, radio & televisi, studio foto, percetakan grafis, corporate brand identity, penerbit majalan/Koran, dll. Sertifikasi: LSP (Lembaga Sertifikasi Profesi), BNSP (Badan Nasional Sertifikasi Profesi), TOEIC (Test of English for International Communication), Adobe.<br></p>

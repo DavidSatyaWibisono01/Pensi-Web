@@ -45,7 +45,7 @@
                 <a class="nav-link" href="#features-section">Talent Digital</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact-details-section">Sosmed Kami</a>
+                <a class="nav-link" href="#testimoni">Testimoni Guru</a>
               </li>
               <li class="nav-item btn-contact-us pl-4 pl-lg-0">
                 <a class="btn btn-us" href="/about-us">About Us</a>
@@ -220,9 +220,6 @@
             <div class="img-fluid-talent mb-4">
               <img id="myImgsk" src="https://drive.google.com/uc?id=1e2BwyyxEClB2HnuK8-B00u2rQ9_dvA1D">
             </div>
-<!--             <div class="responsive-container">
-              <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Jbn5SQTL5E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div> -->
             <h6 class="section-subtitle-vid-pensi text-muted">
               Pameran karya dari kompetensi keahlian adalah pameran karya dan inovasi yang telah dibuat oleh ke-7 kompetensi keahlian yang ada di SMK Wikrama. Pameran ini dilakukan secara daring dengan menerapkan konsep 3D melalui website
               sebagai media yang nanti akan dikunjungi oleh siswa/siswi SMK Wikrama dimanapun dan kapanpun. Dalam pameran virtual, para penikmat karya tidak harus datang ke lokasi pameran. Alih-alih semua orang dapat menikmati kreativitas
@@ -240,12 +237,64 @@
         <!-- End Virtual Tour Pensi -->
 
         <!-- Testimoni Guru -->
-        <!-- Isi Disini -->
+        <section class="customer-feedback" id="testimoni">
+          <div class="row">
+            <div class="col-12 text-center pb-5">
+              <h2>Apa kata guru dari Wikrama?</h2>
+            </div>
+          <div class="owl-carousel owl-theme grid-margin">
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
+                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
+                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
+                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
+                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
         <!-- End Testimoni Guru -->
       </div>
     </div>
 
-    <!-- 3 Modal Utama Pensi -->
+    <!-- Footer -->
     <div class="banner-footer">
       <div class="container">
         <section class="contact-details" id="contact-details-section">
@@ -261,7 +310,7 @@
               <p class="color-footer">Saran dan kritikmu akan sangat berguna bagi kami</p>
               <form action="{{url('pesan')}}" method="post">
                 @csrf
-                <input type="text" name="isi" class="form-control" id="" placeholder="Masukkan Saran dan Kritik" minlength="5" maxlength="50">
+                <input type="text" name="isi" class="form-control" id="" placeholder="Masukkan Saran dan Kritik" minlength="5" maxlength="50" required>
                 <div class="pt-3">
                   <button class="btn btn-dark" type="submit">Kirim</button>
                 </div>
@@ -281,7 +330,7 @@
         </footer>
       </div>
     </div>
-    <!-- End 3 Modal Utama Pensi -->
+    <!-- End Footer -->
 
 
     <script>
