@@ -519,6 +519,12 @@ mark {
     .img-fluid {
     padding-bottom: 10px;
     }
+    .font-weight-normal{
+        text-align: center;
+    }
+    .font-weight-semibold{
+        text-align: center;
+    }
 }
 .img-thumbnail {
     padding: 0.25rem;
@@ -8771,6 +8777,7 @@ p {
 }
 .font-weight-semibold {
     font-weight: 600;
+    margin-top: -120px;
 }
 body {
     font-family: Poppins, sans-serif;
@@ -8805,10 +8812,14 @@ body.sidebar-open:before {
     padding: 10px 0px;
 }
 .banner-landing {
-    background-color: #f7f8fa;
-    text-align: center;
-    padding: 10px 0px;
-    height: 600px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../images/bgck-wk.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .banner-footer {
     background-color: #334257;
@@ -9229,12 +9240,24 @@ footer a:hover {
 }
 .navbar {
     background-color: #f7f8fa;
-    padding: 25px 0 63px;
+    padding: 10px 0;
 }
-@media screen and (max-width: 1150px) {
+.text-position-center{
+    text-align: center !important;
+}
+@media screen and (max-width: 500px) {
+    .font-weight-semibold {
+        margin-top: -130px;
+        text-align: left;
+    }
+    .font-weight-normal {
+        text-align: left;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1150px) {
     .navbar {
         background-color: #f7f8fa;
-        padding: 25px 0 15px;
+        padding: 10px 0;
         /*margin-bottom: -100px;*/
     }
     .banner {
@@ -9244,7 +9267,11 @@ footer a:hover {
         height: 635px;
     }
     .font-weight-semibold {
-        margin-top: 45px;
+        margin-top: -130px;
+        text-align: center;
+    }
+    .font-weight-normal{
+        text-align: center;
     }
 }
 /* @media screen and (min-width: 386px) and (max-width: 991px) {

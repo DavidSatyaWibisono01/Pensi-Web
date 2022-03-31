@@ -18,11 +18,11 @@
       <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
         <div class="container">
           <div class="navbar-brand-wrapper d-flex w-100">
-            <img class="mt-2" src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="45px" height="45px" />
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="45px" height="45px" />
+            <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="mdi mdi-menu navbar-toggler-icon"></span>
-            </button>
-            <!-- <a class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-menu navbar-toggler-icon"></span></a> -->
+            </button> -->
+            <a class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-menu navbar-toggler-icon"></span></a>
           </div>
           <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
             <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
@@ -30,10 +30,10 @@
                 <div class="navbar-collapse-logo">
                   <img src="images/Group2.svg" alt="" />
                 </div>
-                <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
-                </button>
-                <!-- <a class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-close navbar-toggler-icon pl-5"></span></a> -->
+                </button> -->
+                <a class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-close navbar-toggler-icon pl-5"></span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
@@ -57,11 +57,11 @@
     </header>
     <div class="banner-landing">
       <div class="container">
-        <h1 class="font-weight-semibold">SHINE IN THE MIDDLE<br />OF PANDEMIC</h1>
-        <h6 class="font-weight-normal text-muted">Proudly Present Virtual Annual Festival by : OSIS MPR Wikrama Bogor</h6>
-        <div class="img-fluid">
+        <h1 class="font-weight-semibold text-white">SHINE IN THE MIDDLE<br />OF PANDEMIC</h1>
+        <h6 class="font-weight-normal text-white">Proudly Present Virtual Annual Festival by : OSIS MPR Wikrama Bogor</h6>
+<!--         <div class="img-fluid">
         <img src="https://drive.google.com/uc?id=1MrIC8YkySEam6aOUMGq4g_PvqSfQwXZB">
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="content-wrapper">
@@ -246,7 +246,7 @@
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
                   <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                   <div class="content-divider m-auto"></div>
                   <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
@@ -257,7 +257,7 @@
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
                   <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                   <div class="content-divider m-auto"></div>
                   <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
@@ -268,7 +268,7 @@
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
                   <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                   <div class="content-divider m-auto"></div>
                   <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
@@ -279,7 +279,7 @@
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="{!! asset('assets/img/images/WhatsAppImage2022-02-12at23.34.141.jpeg') !!}" width="100%" alt="" class="img-customer">
+                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
                   <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
                   <div class="content-divider m-auto"></div>
                   <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>

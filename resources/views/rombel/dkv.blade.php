@@ -102,7 +102,7 @@
         <h5><b>Cara menggunakan View 360</b></h5>
           <ol class="ml-3">
             <li>Sentuh Objek pada gambar yang akan digerakkan, gambar bisa digerakkan ke seluruh arah sesuai keinginan kita</li>
-            <li>klik icon 'perbesar layar' untuk melihat ruangan jurusan secara fullscreen</li>
+            <li>klik icon <span><img src="https://drive.google.com/uc?id=1dj7BNdChYbh3NXPWLaTmrJb0NugFEsG6" width="30" height="30"></span> untuk melihat ruangan jurusan secara fullscreen</li>
           </ol>
       </div>
 
