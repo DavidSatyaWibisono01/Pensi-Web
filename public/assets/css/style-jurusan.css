@@ -9,7 +9,7 @@
 }
 
 section {
-    padding: 100px 200px;
+    padding: 100px 120px;
 }
 
 .main {
@@ -23,9 +23,25 @@ section {
     background-attachment: fixed;
 }
 
-.main .content {
-    max-width: 800px;
-    margin-top: -180px;
+
+
+@media screen and (max-width: 700px) {
+    section{
+        padding: 80px 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1040px) {
+    section {
+        padding: 80px 65px;
+    }
+}
+
+@media screen and (max-width: 1041px) {
+    .main .content {
+        max-width: 800px;
+        margin-top: -155px;
+    }
 }
 
 .main .content h2 {
@@ -238,9 +254,12 @@ body {
         margin-top: 2px;
     }
 }
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 1041px) and (max-width: 1400px) {
     .main {
         min-height: 107vh;
+    }
+    .main .content {
+        margin-top: -145px;
     }
 }
 
@@ -418,10 +437,6 @@ body {
         background-position: center;
         transition: 0.3s ease;
         filter: invert(1);
-    }
-
-    section {
-        padding: 80px 20px;
     }
 
     .main .content h2 {
