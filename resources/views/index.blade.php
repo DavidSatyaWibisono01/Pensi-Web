@@ -19,9 +19,6 @@
         <div class="container">
           <div class="navbar-brand-wrapper d-flex w-100">
             <img src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="45px" height="45px" />
-            <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="mdi mdi-menu navbar-toggler-icon"></span>
-            </button> -->
             <a class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-menu navbar-toggler-icon"></span></a>
           </div>
           <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
@@ -30,9 +27,6 @@
                 <div class="navbar-collapse-logo">
                   <img src="images/Group2.svg" alt="" />
                 </div>
-                <!-- <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
-                </button> -->
                 <a class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="mdi mdi-close navbar-toggler-icon pl-5"></span></a>
               </li>
               <li class="nav-item">
@@ -57,11 +51,8 @@
     </header>
     <div class="banner-landing">
       <div class="container">
-        <h1 class="font-weight-semibold text-white">SHINE IN THE MIDDLE<br />OF PANDEMIC</h1>
+        <h1 class="font-weight-semibold-landing text-white">SHINE IN THE MIDDLE<br />OF PANDEMIC</h1>
         <h6 class="font-weight-normal text-white">Proudly Present Virtual Annual Festival by : OSIS MPR Wikrama Bogor</h6>
-<!--         <div class="img-fluid">
-        <img src="https://drive.google.com/uc?id=1MrIC8YkySEam6aOUMGq4g_PvqSfQwXZB">
-        </div> -->
       </div>
     </div>
     <div class="content-wrapper">
@@ -306,11 +297,11 @@
               <a href="https://kejar.id" target="_blank"><img src="{!! asset('assets/images/landing-page/logo-kejarid-footer.png') !!}" width="50%" /></a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 grid-margins">
-              <h5 class="color-footer pb-2">Masukkan Saran & Kritikmu!</h5>
-              <p class="color-footer">Saran dan kritikmu akan sangat berguna bagi kami</p>
+              <h5 class="color-footer pb-2">Masukkan Kritik & Saranmu!</h5>
+              <p class="color-footer">Kritik dan Saranmu akan sangat berguna bagi kami</p>
               <form action="{{url('pesan')}}" method="post">
                 @csrf
-                <input type="text" name="isi" class="form-control" id="" placeholder="Masukkan Saran dan Kritik" minlength="5" maxlength="50" required>
+                <input type="text" name="isi" class="form-control" id="" placeholder="Masukkan Pesan" minlength="5" maxlength="50" required>
                 <div class="pt-3">
                   <button class="btn btn-dark" type="submit">Kirim</button>
                 </div>
@@ -319,8 +310,9 @@
             <div class="col-12 col-md-6 col-lg-3 grid-margins">
               <h5 class="color-footer pb-2">Follow juga sosial media kami</h5>
               <div class="d-flex justify-content-center justify-content-md-start">
-                <a href="#"><span class="mdi mdi-facebook"></span></a>
-                <a href="#"><span class="mdi mdi-instagram"></span></a>
+                <a href="https://www.instagram.com/om__smkwikrama" target="_blank" name="instagram"><img src="https://drive.google.com/uc?id=1AgdPdapafgdN0e-tpzuQH1ib5O0kh5M4" width="20"></a>
+                <a href="https://www.youtube.com/channel/UCWJLG_YhvKylEXLpCuw5UtA" target="_blank" name="youtube"><img src="https://drive.google.com/uc?id=1BXJ5BYsQd8mxjGhaS9o_reor5TPnEORi"  class="ml-3" width="20"></a>
+                <a href="https://vt.tiktok.com/ZSd2Gsjtf/" target="_blank" name="tiktok"><img src="https://drive.google.com/uc?id=17R3HXb2iPlDlAUx00nuzHTW8z-3bYSvg"  class="ml-3" width="20"></a>
               </div>
             </div>
           </div>
