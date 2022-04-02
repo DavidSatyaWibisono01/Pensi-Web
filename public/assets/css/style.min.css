@@ -515,7 +515,7 @@ mark {
         width: 400px;
     }
 }
-@media screen and (min-width: 1150px) and (max-width: 1400px) {
+@media screen and (min-width: 1150px) and (max-width: 2000px) {
     .img-fluid {
     padding-bottom: 10px;
     }
