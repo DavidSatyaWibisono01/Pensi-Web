@@ -9174,7 +9174,7 @@ footer a:hover {
        .closed{
         top: 95px;
         right: 40px;
-       }      
+       }
 }
 @media screen and (min-width: 650px) and (max-width: 850px) {
     .modal-contents {
@@ -9192,11 +9192,11 @@ footer a:hover {
         font-weight: 400;
         width: 100%;
         margin: auto;
-       }   
+       }
        .closed{
         top: 95px;
         right: 40px;
-       } 
+       }
 }
 @media screen and (min-width:  850px) and (max-width: 991px) {
     .img-fluid-talent img{
@@ -9210,7 +9210,7 @@ footer a:hover {
        .closed{
         top: 95px;
         right: 40px;
-       } 
+       }
 }
 @media screen and (min-width:  991px) and (max-width: 1400px) {
     .img-fluid-talent img{
@@ -9220,7 +9220,7 @@ footer a:hover {
         font-weight: 400;
         width: 80%;
         margin: auto;
-       }   
+       }
 }
 
 .owl-carousel .owl-carousell .owl-item {

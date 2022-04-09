@@ -39,7 +39,7 @@
                 <a class="nav-link" href="#features-section">Talent Digital</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#testimoni">Testimoni Guru</a>
+                <a class="nav-link" href="#testimoni">Testimoni</a>
               </li>
               <li class="nav-item btn-contact-us pl-4 pl-lg-0">
                 <a class="btn btn-us" href="/about-us">About Us</a>
@@ -127,8 +127,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Pengembangan Perangkat Lunak dan Gim</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">PPLG adalah perubahan nama dari Rekayasa Perangkat Lunak atau RPL. Jurusan PPLG di SMK Wikrama dibuka pada tahun 2003.</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/pengembangan-perangkat-lunak-dan-gim">Kunjungi</a>
                 </div>
               </div>
@@ -138,8 +137,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Desain Komunikasi Visual</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">DKV SMK Wikrama Bogor dirikan pada tahun 2011 dan sudah mendapat akreditasi A. dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/desain-komunikasi-visual">Kunjungi</a>
                 </div>
               </div>
@@ -149,8 +147,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Teknik Jaringan Komputer dan Telekomunikasi</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">Teknik Jaringan Komputer dan Telekomunikasi merupakan ilmu berbasis Teknologi Informasi dan Komunikasi terkait kemampuan algoritma, dan pemrograman komputer, perakitan komputer, perakitan jaringan komputer, dan pengoperasian internet.</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/teknik-jaringan-komputer-dan-telekomunikasi">Kunjungi</a>
                 </div>
               </div>
@@ -160,8 +157,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Manajemen Perkantoran dan Layanan Bisnis</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">Jurusan Manajemen Perkantoran dan Layanan Bisnis Wikrama dikenal dengan jurusan yang banyak mencetak calon sekretaris handal dan kompeten di bidang administrasi, keuangan hingga penanganan tamu.</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/manajemen-perkantoran-dan-layanan-bisnis">Kunjungi</a>
                 </div>
               </div>
@@ -171,8 +167,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Pemasaran</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">Kompetensi keahlian Pemasaran SMK Wikrama Bogor didirikan pada tahun 2014, dan dan memperoleh akreditasi dari Badan Akreditasi Nasional Sekolah/Madrasah (BAN-SM) dengan nilai A.</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/pemasaran">Kunjungi</a>
                 </div>
               </div>
@@ -182,8 +177,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Hotel</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">Bidang Keahlian Pariwisata merupakan salah satu fokus program Revitalisasi SMK dalam rangka meningkatkan daya saing SDM Indonesia.</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/hotel">Kunjungi</a>
                 </div>
               </div>
@@ -193,8 +187,7 @@
               <div class="card-in-modal">
                 <div class="container-in-modal">
                   <h5>Kuliner</h5>
-                  <p class="btn-modal-card2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="btn-modal-card2">Kompetensi Keahlian Kuliner merupakan salah satu jurusan atau kompetensi yang memberikan Pelajaran di bidang Pengolahan dan Penyajian Makanan baik oriental maupun kontinental serta mampu memberikan pelayanan makanan dan minuman di restoran (Food and Beverage Service).</p>
                   <a class="button-modal button-modal-card" target="_blank" href="/kuliner">Kunjungi</a>
                 </div>
               </div>
@@ -231,50 +224,99 @@
         <section class="customer-feedback" id="testimoni">
           <div class="row">
             <div class="col-12 text-center pb-5">
-              <h2>Apa kata guru dari Wikrama?</h2>
+              <h2>Testimoni</h2>
+              <h6 class="section-subtitle text-muted m-0">
+                Apa kata mereka tentang SMK Wikrama?
+              </h6>
             </div>
           <div class="owl-carousel owl-theme grid-margin">
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
-                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <p class="m-0 py-3 text-muted">Active well nourished smart of me</p>
                   <div class="content-divider m-auto"></div>
-                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
-                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                  <h6 class="card-title pt-3">Muchtaruddin Mansyur</h6>
+                  <h6 class="customer-designation text-muted m-0">SEAMEO RECFON</h6>
                 </div>
               </div>
             </div>
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
-                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <p class="m-0 py-3 text-muted">Dear students, teachers, principle and all staff of SMK WIKRAMA for the successful management and effective school</p>
                   <div class="content-divider m-auto"></div>
-                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
-                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                  <h6 class="card-title pt-3">M. Shakir Habibyar</h6>
+                  <h6 class="customer-designation text-muted m-0">Islamic Republic of Afghanistan</h6>
                 </div>
               </div>
             </div>
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
-                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <p class="m-0 py-3 text-muted">Tetap berbagi <br> Terus berinovasi <br> Kerja tanpa henti</p>
                   <div class="content-divider m-auto"></div>
-                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
-                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                  <h6 class="card-title pt-3">M. Shakir Habibyar</h6>
+                  <h6 class="customer-designation text-muted m-0">Islamic Republic of Afghanistan</h6>
                 </div>
               </div>
             </div>
             <div class="card customer-cards">
               <div class="card-body">
                 <div class="text-center">
-                  <img src="https://drive.google.com/uc?id=1_1T8qDXsj_ghOeZm2EnDPHhAJRODRInY" width="100%" alt="" class="img-customer">
-                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+                  <p class="m-0 py-3 text-muted">Hadir terus dengan inovasi dan kreasi, untuk masa depan anak anak negri</p>
                   <div class="content-divider m-auto"></div>
-                  <h6 class="card-title pt-3">Moh Rizal S.Pd</h6>
-                  <h6 class="customer-designation text-muted m-0">Pembina OSIS</h6>
+                  <h6 class="card-title pt-3">Prof. Dr. Irwan. M.Pd</h6>
+                  <h6 class="customer-designation text-muted m-0">Kepala pusat LP3TK KPTK</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <p class="m-0 py-3 text-muted">Semoga SMK WIKRAMA BOGOR selalu menjadi agen pembaharuan inovasi SMK</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Yopi Sopian.ST.M.Pd</h6>
+                  <h6 class="customer-designation text-muted m-0">Kasi Peningkatan kompetisi LPPPTK KPTK</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <p class="m-0 py-3 text-muted">Bagus aplikasi yang sudah dikembangkan, lanjutkan untuk masa depan amal dan bangsa kita</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">M. Bakrum</h6>
+                  <h6 class="customer-designation text-muted m-0"></h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <p class="m-0 py-3 text-muted">SMK WIKRAMA BOGOR SEKOLAH MASA DEPAN!</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Atalia Ridwan Kamin</h6>
+                  <h6 class="customer-designation text-muted m-0"></h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <p class="m-0 py-3 text-muted">Kembangkan SPW dengan variasi produk. Yakin, pasti sukses!!!</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Wardami</h6>
+                  <h6 class="customer-designation text-muted m-0">Dir. SMK</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <p class="m-0 py-3 text-muted">70% siswa SMK WIKRAMA jadi juragan dan pasar Asia Tenggara didampingi Kerawang</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Gatot Ito</h6>
+                  <h6 class="customer-designation text-muted m-0">Dir. SMK</h6>
                 </div>
               </div>
             </div>
