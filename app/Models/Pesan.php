@@ -13,6 +13,8 @@ class Pesan extends Model
     ];
 
     public function dataPengunjung(){
-        return $this->hasOne(Pengunjung::class, 'id', 'pengunjung_id');
+        return $this->hasOne(Pengunjung::class, 'id', 'pengunjung_id')->withdefault([
+            'name' => 'Nama Pengunjung sudah dihapus',
+        ]);
     }
 }

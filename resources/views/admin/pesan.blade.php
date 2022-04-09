@@ -5,7 +5,7 @@
     <div class="content-wrapper">   
         <div class="card ">
             <div class="card-body">
-                <h4 class="card-title">Data Pengunjung Virtual Tour OSIS MPR Wikrama Bogor</h4>
+                <h4 class="card-title">Pesan Pengunjung Virtual Tour OSIS MPR Wikrama Bogor</h4>
                 <div class="table-responsive">
                 <table class="table">
                     <thead>

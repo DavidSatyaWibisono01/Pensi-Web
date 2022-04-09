@@ -38,7 +38,7 @@ class PesanController extends Controller
     public function store(StorePesanRequest $request)
     {
         $request->validate([
-            'isi' => 'required',
+            'isi' => ['required','regex:/(^([a-zA-z ]+)(\d+)?$)/u','max:50','min:5'],
         ]);
         Pesan::insert([
             'pengunjung_id' => $request->session()->get('pengunjung_id'),

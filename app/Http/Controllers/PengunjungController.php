@@ -8,9 +8,12 @@ use Illuminate\Http\Request;
 use App\Exports\PengunjungsExport;
 use Maatwebsite\Excel\Facades\Excel;
 use Carbon\Carbon;
+use Illuminate\Routing\Redirector;
+use Cache;
 
 class PengunjungController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -24,7 +27,13 @@ class PengunjungController extends Controller
 
     public function active()
     {
-        $data = Pengunjung::where('status','active')->count();
+        $pengunjungs = Pengunjung::all();
+        $data = 0;
+        foreach($pengunjungs as $pengunjung){
+            if(Cache::has('is_online' . $pengunjung->id)){
+                $data++;
+            }
+        }
         return response()->json($data);
     }
 
@@ -107,45 +116,71 @@ class PengunjungController extends Controller
     }
 
     public function dkv(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+            return redirect('/');
+         }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['dkv' => Carbon::now()]);
         return view('rombel.dkv');
     }
 
     public function pplg(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+           return redirect('/');
+        }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['pplg' => Carbon::now()]);
         return view('rombel.pplg');
     }
 
     public function tjkt(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+            return redirect('/');
+         }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['tjkt' => Carbon::now()]);
         return view('rombel.tjkt');
     }
 
     public function pemasaran(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+            return redirect('/');
+         }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['pmn' => Carbon::now()]);
         return view('rombel.pemasaran');
     }
 
     public function hotel(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+            return redirect('/');
+         }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['hotel' => Carbon::now()]);
         return view('rombel.hotel');
     }
 
     public function kuliner(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+            return redirect('/');
+         }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['kuliner' => Carbon::now()]);
         return view('rombel.kuliner');
     }
 
     public function mplb(Request $request){
+        if($request->session()->has('pengunjung_id') == null){
+            return redirect('/');
+         }
         Tracking::updateOrCreate(['pengunjung_id' => $request->session()->get('pengunjung_id')],
         ['mplb' => Carbon::now()]);
         return view('rombel.mplb');
+    }
+
+    public function Chartjurusan(){
+        $data = Tracking::all();
+        return response()->json($data);
     }
 
 }

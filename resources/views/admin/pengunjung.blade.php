@@ -32,11 +32,11 @@
                         <td>{{$pengunjung->asal_instansi}}</td>
                         <td>{{$pengunjung->updated_at}}</td>
                         <td>
-                            <a class="btn btn-info btn-sm" href="{{url('tracking/'.$pengunjung->id)}}"><i class="mdi mdi-information-outline"></i></a>  
+                            <a class="btn btn-info" href="{{url('tracking/'.$pengunjung->id)}}"><span class="mdi mdi-information-outline"></span></a>  
                             <form action="{{ url('/admin/pengunjungs/'.$pengunjung->id) }}" method="post" class="d-inline">
                             @method('DELETE')
                             @csrf
-                            <button class="btn btn-danger btn-sm text-white" onclick="return confirm('Apakah kamu yakin untuk menghapus data ini?');"><i class="mdi mdi-delete"></i></button>
+                            <button class="btn btn-danger text-white" onclick="return confirm('Apakah kamu yakin untuk menghapus data ini?');"><span class="mdi mdi-delete"></span></button>
                             </form>
                         </td>
                     </tr>

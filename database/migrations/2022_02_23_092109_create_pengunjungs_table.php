@@ -20,6 +20,7 @@ class CreatePengunjungsTable extends Migration
             $table->string('no_tlpn');
             $table->string('asal_instansi');
             $table->enum('status', ['active', 'tidak active']);
+            $table->timestamp('last_seen')->nullable();
             $table->timestamps();
         });
     }
