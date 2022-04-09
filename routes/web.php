@@ -21,17 +21,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [RegisterController::class, 'index'])->name('login');
 Route::post('/register', [RegisterController::class, 'store']);
 Route::post('/auth', [AdminController::class, 'auth']);
-
-Route::get('/logout', [AdminController::class, 'logout']);
 Route::get('/login', [AdminController::class, 'login']);
-Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
-Route::get('/pengunjung', [PengunjungController::class, 'index'])->middleware('auth');
-Route::get('/instansi', [InstansiController::class, 'index'])->middleware('auth');
-Route::delete('/admin/pengunjungs/{id}', [AdminController::class, 'delete']);
-Route::get('/pengunjung/export', [PengunjungController::class, 'export']);
-Route::get('/pengunjung/active', [PengunjungController::class, 'active']);
 
-Route::get('/tracking/{id}', [PengunjungController::class, 'trackingIndex']);
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/logout', [AdminController::class, 'logout']);
+    Route::get('/admin', [AdminController::class, 'index']);
+    Route::get('/pengunjung', [PengunjungController::class, 'index']);
+    Route::get('/instansi', [InstansiController::class, 'index']);
+    Route::delete('/admin/pengunjungs/{id}', [AdminController::class, 'delete']);
+    Route::get('/pengunjung/export', [PengunjungController::class, 'export']);
+    Route::get('/pengunjung/active', [PengunjungController::class, 'active']);
+    Route::get('/pengunjung/jurusan', [PengunjungController::class, 'Chartjurusan']);
+    Route::get('/tracking/{id}', [PengunjungController::class, 'trackingIndex']);
+});
+
 
 Route::get('/desain-komunikasi-visual', [PengunjungController::class, 'dkv']);
 Route::get('/pengembangan-perangkat-lunak-dan-gim', [PengunjungController::class, 'pplg']);

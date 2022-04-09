@@ -21,8 +21,11 @@
   <link rel="stylesheet" href="{{ asset('assets/css/vertical-layout-light/style.css')}}">
   <!-- endinject -->
   <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png')}}" />
+
+  <!-- datatables -->
+  <link rel="stylesheet" href="cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 </head>
-<body  onload="realtimeClock()">
+<body id="load_content" onload="realtimeClock()">
     @yield('header')
     @yield('body')
   <!-- plugins:js -->
@@ -48,6 +51,16 @@
   <!-- End custom js for this page-->
   <!-- datetime scripts -->
   <script src="{{asset('assets/js/jam.js')}}"></script>
+  <script src="{{asset('assets/js/chart.js')}}"></script>
+
+  <!-- script datatable -->
+  <script src="cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+  @yield('script')
+  <script>
+    $(document).ready( function () {
+      $('Table').DataTable();
+    });
+  </script>
 </body>
 </html>
 
