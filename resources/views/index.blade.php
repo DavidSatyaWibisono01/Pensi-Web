@@ -121,7 +121,7 @@
           <div class="modal-content">
             <span class="close">&times;</span>
             <h4 class="text-center mt-2 mb-3"><b>Ruang Jurusan</b></h4>
-            <img class="img-modal mt-2 mb-2" src="{!! asset('assets/images/logo/logo-wk.png') !!}">
+            <img class="img-modal mt-2 mb-2" src="{!! asset('assets/images/landing-page/logo-wk.png') !!}">
 
             <!-- Pembatas Card -->
               <div class="card-in-modal">

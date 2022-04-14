@@ -93,7 +93,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-card">
-            <img src="https://drive.google.com/uc?id=1bE7IkxgWoi8BC_I5lZwaLQM7Ficyxi6d">
+            <img src="https://drive.google.com/uc?id=15EXzaFCcyIHXdfmnKl0f0934i9bsHwqK">
           </div>
         </div>
         <div class="column col-right reveal">
@@ -125,17 +125,17 @@
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1xVOe6S3FflHOTHh5u2zbmnMl8rbljEVv">
+            <img src="https://drive.google.com/uc?id=14qgEXW6Km2LeUbAKHXJVDemcvIecOvHf">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=19nqd2Z1-opBjFD1LAy4nbzeeys_R0lcu">
+            <img src="https://drive.google.com/uc?id=1T8s-CjlWFA1zL0N4QzAyuWAsQViodUh2">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1WGaY8fYm1H-gXyJqTSEnYbz3AnXmZHh_">
+            <img src="https://drive.google.com/uc?id=1wj5hy7Pejtdcjr_afMKqxuO1q_WQHT8g">
           </div>
         </div>
       </div>

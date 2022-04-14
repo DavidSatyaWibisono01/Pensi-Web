@@ -137,7 +137,7 @@
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1jNW3L8AS4atK6p7weeLKgWOv2_TBt4nx">
+            <img src="https://drive.google.com/uc?id=1ECTBxDJWmyu81guOnUmDmNcQ3NkgcmIp">
           </div>
         </div>
         <div class="card reveal">

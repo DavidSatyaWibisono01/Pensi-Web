@@ -132,7 +132,7 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=18VuL5BDdIWlXI9vYBxXtsejfupjjOrQp">
+            <img src="https://drive.google.com/uc?id=1HjVKHbJBvUx1ybNfhTkXIokB-dJj_B2n">
           </div>
         </div>
         <div class="card reveal">

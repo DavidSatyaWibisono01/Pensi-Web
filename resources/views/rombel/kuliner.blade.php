@@ -93,7 +93,7 @@
       <div class="content">
         <div class="column col-left reveal">
           <div class="img-box">
-            <img class="img-jurusan-kuliner" src="https://drive.google.com/uc?id=1-zmy5_PbRicedJOXEKuWLNMq9zwL0iHX"><br><br>
+            <img class="img-jurusan-kuliner" src="https://drive.google.com/uc?id=12HM6q6D1TDGDmbw0haY0aJLBHHfSbLYz"><br><br>
           </div>
         </div>
         <div class="column col-right reveal">
@@ -110,32 +110,32 @@
       <div class="content">
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1-zmy5_PbRicedJOXEKuWLNMq9zwL0iHX">
+            <img src="https://drive.google.com/uc?id=12HM6q6D1TDGDmbw0haY0aJLBHHfSbLYz">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1Dj2Vcq-aS5WxER2VvhThQqBlaa0w8KEh">
+            <img src="https://drive.google.com/uc?id=1WNsVsMfjFdtbWS8QSH0lqInTGEyrfAEq">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1U6hV0vL3wcqs_OK0cXf__dIkEXcIoGiZ">
+            <img src="https://drive.google.com/uc?id=1oMbgFBddsPuM24w_f2AAP5302l4Hu1uL">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=16k7KjoVoFTatVFG81RPcVMHWGUKHL9_8">
+            <img src="https://drive.google.com/uc?id=1gaZT2667JMgLD0dLu1Aj2n2K6ojTBz2s">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1ed3ShynXrCQoFqTFK2hQ9CKqqlVKS2gH">
+            <img src="https://drive.google.com/uc?id=1JZ4BZ0r9KxEXzYQ5usNdYJ3_ndsp5P0P">
           </div>
         </div>
         <div class="card reveal">
           <div class="card-img">
-            <img src="https://drive.google.com/uc?id=1uPA7Yrv2jkTdyfkJjd79vuQPY1Ec0FA8">
+            <img src="https://drive.google.com/uc?id=10yRoqzg14-4QAKRkieJBJ8GLystaElmn">
           </div>
         </div> 
       </div>
