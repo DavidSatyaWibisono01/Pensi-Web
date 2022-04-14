@@ -211,12 +211,12 @@
             </h6>
           </div>
 
-        <!-- The Modal -->
-        <div id="myModalsk" class="modalvidpensi">
-            <span class="closed">&times;</span>
-            <iframe allowfullscreen="" class="modal-contents" frameborder="0" height="450" src="https://www.youtube.com/embed/Jbn5SQTL5E0" style="border: 0" width="800"></iframe>
-            <div id="captionsk"></div>
-        </div>
+          <!-- The Modal -->
+          <div id="myModalsk" class="modalvidpensi">
+              <span class="closed">&times;</span>
+              <iframe allowfullscreen="" class="modal-contents" frameborder="0" height="450" src="https://www.youtube.com/embed/Jbn5SQTL5E0" style="border: 0" width="800"></iframe>
+              <div id="captionsk"></div>
+          </div>
         </section>
         <!-- End Virtual Tour Pensi -->
 
@@ -324,6 +324,7 @@
           </div>
         </section>
         <!-- End Testimoni Guru -->
+
       </div>
     </div>
 

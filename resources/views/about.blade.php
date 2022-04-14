@@ -36,11 +36,11 @@
     <meta name="theme-color" content="#478ac9">
   </head>
   <body class="u-body u-overlap u-overlap-transparent" id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
-    <header id="header-section" style="padding: 0">
-      <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+    <header id="header-section">
+      <nav class="navbar navbar-padding navbar-expand-lg pl-3 pl-sm-0" id="navbar" style="padding: 0">
         <div class="container">
           <div class="navbar-brand-wrapper d-flex w-100">
-            <img class="mt-2" src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="10%" height="10%" />
+            <img src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="10%" height="10%" />
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="mdi mdi-menu navbar-toggler-icon" style="color: #000"></span>
             </button>
@@ -587,7 +587,7 @@
         <h3 class="u-align-center u-custom-font u-text u-text-3" >Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
         </h3>
         <a class="pointer" href="https://www.instagram.com/hizkia_arya_dian_kristanda/" target="_blank"><img class="u-image u-image-default u-preserve-proportions u-image-2" src="https://drive.google.com/uc?id=1ViCxbt5c6hlA-nqOzO1wRmlQZRuNsBJz" alt="" data-image-width="268" data-image-height="268"></a>
-        <img class="u-image u-image-default u-preserve-proportions u-image-3" src="https://drive.google.com/uc?id=19-T8PC7EzepJmJQqjLHvIj349MJTnda5" alt="" data-image-width="280" data-image-height="281">
+        <a href="https://instagram.com/gloriousthic"><img class="u-image u-image-default u-preserve-proportions u-image-3" src="https://drive.google.com/uc?id=19-T8PC7EzepJmJQqjLHvIj349MJTnda5" alt="" data-image-width="280" data-image-height="281"></a>
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4" style="font-family: 'Poppins'; color: #000;">Hizkia Arya D.K</h2>
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-5" style="font-family: 'Poppins'; color: #000;">Manda Christoffel K</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-6">Koordinator Pensi Virtual</h3>
@@ -604,9 +604,9 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
           <div class="u-repeater u-repeater-1">
-            <!-- <div class="u-align-center u-container-style u-list-item u-repeater-item">
+<!--             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
-                <img class="u-image u-image-round u-radius-12 u-image-3" src="{!! asset('assets/img/images/6332e95e-6bba-468e-8451-2414da79fccf1.jfif') !!}" alt="" data-image-width="842" data-image-height="846">
+                <img class="u-image u-image-round u-radius-12 u-image-3" src="https://drive.google.com/uc?id=1Xt6l5ggjFuxjgJX9PcZtZa8OScEiJMRH" alt="" data-image-width="842" data-image-height="846">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-5">Nurfauzia M</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-6">Multimedia</h5>
               </div>
@@ -660,13 +660,13 @@
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-20">PJ Talent</h5>
               </div>
             </div>
-            <!-- <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-11">
                 <img class="u-image u-image-round u-radius-12 u-image-11" src="{!! asset('assets/img/images/SAVE_20200508_130957.jpeg') !!}" alt="" data-image-width="1600" data-image-height="1600">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-21">Dimas Prayoga</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-22">PJ Talent</h5>
               </div>
-            </div> -->
+            </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-12">
                 <a class="pointer" href="https://www.instagram.com/cmaxxs_/" target="_blank"><img class="u-image u-image-round u-radius-12 u-image-12" src="https://drive.google.com/uc?id=1qojVOGQCfPlddg-mLGCkesNtaLw7BayM" alt="" data-image-width="335" data-image-height="745"></a>
@@ -674,23 +674,23 @@
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-24">Humas</h5>
               </div>
             </div>
-            <!-- <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-13">
                 <img class="u-image u-image-round u-radius-12 u-image-13" src="{!! asset('assets/img/images/163d12b5-9427-4138-8755-02bd440592f8.jfif') !!}" alt="" data-image-width="1280" data-image-height="1280">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-25">Rizky Mutiara P</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-26">Humas</h5>
               </div>
-            </div> -->
-            <!-- <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-14">
-                <img class="u-image u-image-round u-radius-12 u-image-14" src="{!! asset('assets/img/images/78b48398-6ecc-48f5-8bc4-5f4af84d09ed.jfif') !!}" alt="" data-image-width="600" data-image-height="600">
+                <a href="https://instagram.com/gyutupark__"><img class="u-image u-image-round u-radius-12 u-image-14" src="{!! asset('assets/img/images/78b48398-6ecc-48f5-8bc4-5f4af84d09ed.jfif') !!}" alt="" data-image-width="600" data-image-height="600"></a>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-27">Risma Nurul H</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-28">Publikasi</h5>
               </div>
-            </div> -->
-            <!-- <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            </div>
+<!--             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-15">
-                <img class="u-image u-image-round u-radius-12 u-image-15" src="{!! asset('assets/img/images/7e775cf0-465f-49c9-81f3-ef42cbe3d44a2.jfif') !!}" alt="" data-image-width="397" data-image-height="661">
+                <img class="u-image u-image-round u-radius-12 u-image-15" src="https://drive.google.com/uc?id=1pbQFeDvHoqH9w-YqTw_Hl6a4OpddZMG4" alt="" data-image-width="397" data-image-height="661">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-29">Arif Rahman</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-30">Publikasi</h5>
               </div>
@@ -702,13 +702,13 @@
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-32">Design </h5>
               </div>
             </div>
-            <!-- <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-17">
                 <img class="u-image u-image-round u-radius-12 u-image-17" src="{!! asset('assets/img/images/89d4e42d-2997-4d66-9117-a56e8aa46fb4.jfif') !!}" alt="" data-image-width="960" data-image-height="1280">
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-33">Nur Fitrah Hidayah</h5>
                 <h5 class="u-align-center-xs u-custom-font u-text u-text-custom-color-8 u-text-34">Design </h5>
               </div>
-            </div> -->
+            </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-18">
                 <a class="pointer" href="https://www.instagram.com/naswanurasilah/" target="_blank"><img class="u-image u-image-round u-radius-12 u-image-18" src="https://drive.google.com/uc?id=1cc2nD05q1G-i_0-XIgBeqvV0mBIJU75B" alt="" data-image-width="960" data-image-height="1280"></a>
@@ -738,10 +738,10 @@
 }</style>
     
     
-    <div class="banner-footer">
+    <div class="banner-footer" style="padding: 2px;">
       <div class="container">
           <footer>
-            <p class="color-footer text-center pt-4">&copy;2022<a href="https://www.instagram.com/om__smkwikrama" class="color-footer px-1">OSIS MPR Wikrama.</a>All rights reserved.</p>
+            <p class="color-footer text-center">&copy;2022<a href="https://www.instagram.com/om__smkwikrama" class="color-footer px-1">OSIS MPR Wikrama.</a>All rights reserved.</p>
           </footer>
       </div>
   </div>
