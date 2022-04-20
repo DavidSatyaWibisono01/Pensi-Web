@@ -11,7 +11,7 @@
 						Admin OSIS MPR
 					</span>
 					<span class="login100-form-title p-b-48">
-						<img class="logo-wk-login" src="{!! asset('assets/images/logo/logo-osis.png') !!}">
+						<img class="logo-wk-login" src="{!! asset('assets/img/images/1ECC50A2-548D-4589-A514-662303A8D3711.png') !!}">
 					</span>
 					<div class="wrap-input100 validate-input" data-validate="username">
 						<input class="input100" type="text" name="username" placeholder="username">

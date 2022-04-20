@@ -10,7 +10,7 @@
 						Virtual Tour Wikrama Bogor
 					</span>
 					<span class="login100-form-title p-b-48">
-						<img class="logo-wk-login" src="{!! asset('assets/images/logo/logo-wk.png') !!}">
+						<img class="logo-wk-login" src="{!! asset('assets/images/landing-page/logo-wk.png') !!}">
 					</span>
 					<div class="wrap-input100 validate-input" data-validate = "Masukan Nama">
 						<input class="input100" type="text" name="name" placeholder="Nama" required value="{{old('name')}}">

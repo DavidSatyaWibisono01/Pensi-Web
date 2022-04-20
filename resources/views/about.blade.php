@@ -34,12 +34,50 @@
     <meta property="og:title" content="about us">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
+    <style>
+      /* Preloader */
+      /* Preloader */
+
+#preloader{overflow:hidden;background:#fff;left:0;right:0;top:0;bottom:0;position:fixed;z-index:9999}
+
+.spinner{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;text-align:center}
+
+.loader{height:20px;width:250px;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}
+
+.moving-dot{animation-name:loader;animation-timing-function:ease-in-out;animation-duration:3s;animation-iteration-count:infinite;height:20px;width:20px;border-radius:100%;background-color:black;position:absolute;border:2px solid white}
+
+.moving-dot:first-child{background-color:#8cc759;animation-delay:0.5s}
+
+.moving-dot:nth-child(2){background-color:#8c6daf;animation-delay:0.4s}
+
+.moving-dot:nth-child(3){background-color:#ef5d74;animation-delay:0.3s}
+
+.moving-dot:nth-child(4){background-color:#f9a74b;animation-delay:0.2s}
+
+.moving-dot:nth-child(5){background-color:#60beeb;animation-delay:0.1s}
+
+.moving-dot:nth-child(6){background-color:#fbef5a;animation-delay:0s}
+
+@keyframes loader{15%{transform:translateX(0)}45%{transform:translateX(230px)}65%{transform:translateX(230px)}95%{transform:translateX(0)}}
+     </style>
   </head>
   <body class="u-body u-overlap u-overlap-transparent" id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+    {{-- <div id='preloader'>
+      <div class='spinner'>
+        <div class='loader'>
+          <div class='moving-dot'></div>
+          <div class='moving-dot'></div>
+          <div class='moving-dot'></div>
+          <div class='moving-dot'></div>
+          <div class='moving-dot'></div>
+          <div class='moving-dot'></div>
+        </div>
+      </div>
+      </div> --}}
     <header id="header-section">
       <nav class="navbar navbar-padding navbar-expand-lg pl-3 pl-sm-0" id="navbar" style="padding: 0">
         <div class="container">
-          <div class="navbar-brand-wrapper d-flex w-100">
+          <div class="navbar-brand-wrapper d-flex w-100 icon-wk">
             <img src=" {!! asset('assets/images/landing-page/logo-wk.png') !!}" alt="" width="10%" height="10%" />
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="mdi mdi-menu navbar-toggler-icon" style="color: #000"></span>
@@ -73,7 +111,7 @@
       </nav>
     </header>
     <section class="u-clearfix u-image u-section-1" id="wikrama" data-image-width="1440" data-image-height="2710">
-      <div class="u-clearfix u-sheet u-sheet-1" style="margin-top: -15%;">
+      <div class="u-clearfix u-sheet u-sheet-1" style="margin-top: -10%;">
         <img class="u-image u-image-default u-preserve-proportions u-image-1" src="{!! asset('assets/img/images/1622451191352-1.png') !!}" alt="" data-image-width="768" data-image-height="767">
         <h1 class="u-align-center u-custom-font u-text u-text-body-alt-color u-text-1">SMK Wikrama Bogor</h1>
         <h5 class="u-align-left u-custom-font u-text u-text-body-alt-color u-text-2" style="text-align: justify;">SMK Wikrama Bogor didirikan oleh Ir. Itasia Dina Sulvianti dan Dr.H.RP Agus Lelana dibawah naungan Yayasan Prawitama pada tahun 1996 di bekas gudang KUD. Kompetensi keahlian yang pertama dibuka pada saat itu adalah sekretaris dengan jumlah hanya 34 siswa. <br>
@@ -745,8 +783,6 @@
           </footer>
       </div>
   </div>
-
-
     <script class="u-script" type="text/javascript" src="{!! asset('assets/js/jquery.js') !!}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{!! asset('assets/js/nicepage.js') !!}" defer=""></script>
     <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
@@ -754,5 +790,13 @@
     <script src=" {!! asset('assets/vendors/owl-carousel/js/owl.carousel.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/aos/js/aos.js') !!} "></script>
     <script src=" {!! asset('assets/js/landingpage.js') !!} "></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    {{-- <script>
+      $(window).load(function(){
+        $(".spinner").fadeOut(),
+        $("#preloader").delay(10).fadeOut("slow"),
+        $("#body").delay(10).css({overflow:"visible"})
+      });
+      </script> --}}
   </body>
 </html>

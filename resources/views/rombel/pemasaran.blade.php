@@ -70,7 +70,7 @@
           <h3>Public Speaking</h3>
         </div>
         <div class="media-icons">
-          <a href="https://www.instagram.com/bdpwikrama/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/bdpwikrama/" target="__blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </section>
@@ -91,7 +91,6 @@
 
     <!-- The Modal -->
     <div id="myModall" class="modal">
-
         <!-- Modal content -->
         <div class="modal-content">
           <span class="close">&times;</span>
@@ -104,7 +103,6 @@
               <li>klik icon <span><img src="https://drive.google.com/uc?id=1dj7BNdChYbh3NXPWLaTmrJb0NugFEsG6" width="30" height="30"></span> untuk melihat ruangan jurusan secara fullscreen</li>
             </ol>
         </div>
-
       </div>
 
     <section class="skills">
@@ -115,7 +113,6 @@
         <div class="column col-left reveal">
           <div class="img-card">
             <img src="https://drive.google.com/uc?id=1YPwaXMs_CyLzcIVC4CIDPJfkgsJE-xW1">
-          </div>
           </div>
         </div>
         <div class="column col-right reveal">

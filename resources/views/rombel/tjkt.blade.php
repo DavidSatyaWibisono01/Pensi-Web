@@ -70,7 +70,7 @@
           <h3>network engineer</h3>
         </div>
         <div class="media-icons">
-          <a href="https://www.instagram.com/tkjwikrama74/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/tkjwikrama74/" target="__blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </section>

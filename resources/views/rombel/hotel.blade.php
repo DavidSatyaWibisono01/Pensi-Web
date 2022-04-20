@@ -78,13 +78,29 @@
       </div>
       <div class="content">
       	<div class="img-box">
-      		<img class="img-jurusan" src="https://drive.google.com/uc?id=1DNNHuN-1Ovc3XmSw9AMDgCGBiF2E4Isn"><br><br>
+      		<iframe  width="100%" height="350px" frameborder="0" title="Responsive iframe example" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://momento360.com/e/u/841215bb89964393ba4e040a4ef16572?utm_campaign=embed&utm_source=other&heading=251.71&pitch=-5.04&field-of-view=75&size=medium"></iframe><span class="text-position-for-iframe mt-1" id="myBtnMdl"><span class="border-bottom-text">klik disini</span> untuk info detail view 360</span><br><br>
       	</div>
           <h2 class="content-title">Hotel</h2>
           <p class="paragraph-text">Bidang Keahlian Pariwisata merupakan salah satu fokus program Revitalisasi SMK dalam rangka meningkatkan daya saing SDM Indonesia. Seiring dengan nawacita presiden Republik Indonesia bapak Jokowidodo bidang Pariwisata, Seni, dan Industri Kreatif mulai dikembangkan untuk menciptakan sumber daya unggul dan kreatif. Merespon hal tersebut SMK WIKRAMA BOGOR membuka jurusan PERHOTELAN di tahun 2017. Hal ini bertujuan salah satunya untuk memenuhi SDM dan menciptakan tenaga kerja yang terampil di bidang Perhotelan. Kompetensi Keahlian Hotel SMK Wikrama Bogor menjadi jurusan ke-7 di SMK Wikrama Bogor, dengan nilai akreditasi B (baik)<br></p>
         </div>
       </div>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModall" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h5 class="mt-3"><b>Pengertian View 360</b></h5>
+          <p>View 360 adalah sebuah fitur yang dimana kita dapat melihat sebuah objek dengan pemandangan full yang dapat kita gerakkan sesuai arah yang kita inginkan</p>
+          <br>
+          <h5><b>Cara menggunakan View 360</b></h5>
+            <ol class="ml-3">
+              <li>Sentuh Objek pada gambar yang akan digerakkan, gambar bisa digerakkan ke seluruh arah sesuai keinginan kita</li>
+              <li>klik icon <span><img src="https://drive.google.com/uc?id=1dj7BNdChYbh3NXPWLaTmrJb0NugFEsG6" width="30" height="30"></span> untuk melihat ruangan jurusan secara fullscreen</li>
+            </ol>
+        </div>
+      </div>
 
     <section class="skills">
       <div class="title reveal">
@@ -149,7 +165,33 @@
           </footer>
       </div>
   </div>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModall");
 
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtnMdl");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
     <script src="{!! asset('assets/js/script-jurusan.js') !!}" charset="utf-8"></script>
     <script src=" {!! asset('assets/vendors/jquery/jquery.min.js') !!} "></script>
     <script src=" {!! asset('assets/vendors/bootstrap/bootstrap.min.js') !!} "></script>

@@ -70,7 +70,7 @@
           <h3>Front-End Developer</h3>
         </div>
         <div class="media-icons">
-          <a href="https://www.instagram.com/rplwikrama/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/rplwikrama/" target="__blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </section>

@@ -70,8 +70,8 @@
           <h3>Animasi</h3>
         </div>
         <div class="media-icons">
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="https://www.instagram.com/mm.wikrama/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCyhEUzlXbXet57qFnDfdWuw" target="__blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/mm.wikrama/" target="__blank"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </section>

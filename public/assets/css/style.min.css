@@ -9212,9 +9212,9 @@ footer a:hover {
         right: 40px;
        }
 }
-@media screen and (min-width:  991px) and (max-width: 1400px) {
+@media screen and (min-width:  991px) and (max-width: 2000px) {
     .img-fluid-talent img{
-        width: 55%;
+        width: 70%;
     }
     .section-subtitle-vid-pensi{
         font-weight: 400;
@@ -9702,5 +9702,10 @@ footer a:hover {
     border: none;
     justify-content: flex-start;
     padding: 5px 0 20px 39px;
+}
+@media screen and (max-width: 767px ){
+    .icon-wk img{
+        margin-top: 5px;
+    }
 }
 /*# sourceMappingURL=maps/style.min.css.map */
