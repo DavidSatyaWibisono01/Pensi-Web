@@ -624,9 +624,9 @@
         <h2 class="u-align-center-sm u-align-center-xs u-custom-font u-text u-text-custom-color-6 u-text-2" style="text-align: center; font-family: 'Poppins'; color: #000;">Moh Rizal S.Pd </h2>
         <h3 class="u-align-center u-custom-font u-text u-text-3" >Pembina Osis MPR&nbsp;<br>SMK Wikrama Bogor
         </h3>
-        <a class="pointer" href="https://www.instagram.com/hizkia_arya_dian_kristanda/" target="_blank"><img class="u-image u-image-default u-preserve-proportions u-image-2" src="https://drive.google.com/uc?id=1ViCxbt5c6hlA-nqOzO1wRmlQZRuNsBJz" alt="" data-image-width="268" data-image-height="268"></a>
+        <a class="pointer" href="https://www.instagram.com/bluevic03" target="_blank"><img class="u-image u-image-default u-preserve-proportions u-image-2" src="https://drive.google.com/uc?id=1m7iYmOORHcnQqbhl2Dvqqwx3bTkrcFHV" alt="" data-image-width="268" data-image-height="268"></a>
         <a href="https://instagram.com/gloriousthic"><img class="u-image u-image-default u-preserve-proportions u-image-3" src="https://drive.google.com/uc?id=19-T8PC7EzepJmJQqjLHvIj349MJTnda5" alt="" data-image-width="280" data-image-height="281"></a>
-        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4" style="font-family: 'Poppins'; color: #000;">Hizkia Arya D.K</h2>
+        <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-4" style="font-family: 'Poppins'; color: #000;">M. Rizqi Ramdhani</h2>
         <h2 class="u-align-center u-custom-font u-text u-text-custom-color-6 u-text-5" style="font-family: 'Poppins'; color: #000;">Manda Christoffel K</h2>
         <h3 class="u-align-center u-custom-font u-text u-text-6">Koordinator Pensi Virtual</h3>
         <h3 class="u-align-center u-custom-font u-text u-text-7">Ketua Pelaksana Pensi Virtual</h3>

@@ -252,8 +252,8 @@
                 <div class="text-center">
                   <p class="m-0 py-3 text-muted">Tetap berbagi <br> Terus berinovasi <br> Kerja tanpa henti</p>
                   <div class="content-divider m-auto"></div>
-                  <h6 class="card-title pt-3">M. Shakir Habibyar</h6>
-                  <h6 class="customer-designation text-muted m-0">Islamic Republic of Afghanistan</h6>
+                  <h6 class="card-title pt-3">Bima Arya</h6>
+                  <h6 class="customer-designation text-muted m-0"></h6>
                 </div>
               </div>
             </div>

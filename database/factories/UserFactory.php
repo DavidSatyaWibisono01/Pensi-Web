@@ -17,7 +17,7 @@ class UserFactory extends Factory
     {
         return [
             'username' => 'admin',
-            'password' => Hash::make('admin12345'), // password
+            'password' => Hash::make('osismpr2022'), // password
         ];
     }
 
